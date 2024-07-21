@@ -1,4 +1,5 @@
 ---
-title: Welcome to my blog
+title: Welcome to Bryan's Place
 ---
 
+I hope this will be useful.
