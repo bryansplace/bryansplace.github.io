@@ -1,6 +1,7 @@
 ---
+date: 2024-07-01
 title: Reuse an Old Smart Phone
-
+layout: post
 ---
 # Reuse an Old Smart Phone
 
