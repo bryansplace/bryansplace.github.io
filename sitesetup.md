@@ -22,7 +22,7 @@ Github supports different themes which can change the way the site looks. An ini
 
 ## Config
 
-The config.yml file controls Jekyll. 
+The [config.yml file](https://github.com/bryansplace/bryansplace.github.io/blob/main/_config.yml)   controls Jekyll. 
 
 
 
