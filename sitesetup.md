@@ -26,6 +26,8 @@ The [config.yml file](https://github.com/bryansplace/bryansplace.github.io/blob/
 
 ## Front Matter
 
+This is the metadata stuff that goes at the top of the page. I think it varies depending on which system (Jekyll) and which Theme.
+
 
 
 
