@@ -9,7 +9,6 @@ draft: true
 ---
 
 
-ChatGPT  
 
 The Jekyll Minima theme, which is the default theme for Jekyll, supports a variety of front matter options that you can use to customize your pages and posts. Here’s a list of the most commonly used and supported front matter options for the Minima theme:1. Basic Front MatterThese are the essential fields that should be included in every post or page:---
 layout: post    # or 'page' for pages
