@@ -1,8 +1,7 @@
 ---
+layout: page
 title: Site setup
 date: 2024-08-13
-filename: "test.md"
-layout: post
 
 
 ---
