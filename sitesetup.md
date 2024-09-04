@@ -2,7 +2,12 @@
 layout: page
 title: Site setup
 date: 2024-08-13
+categories:
+tags:
 
+published: true
+excerpt:
+description:
 
 ---
 ## Initial setup
