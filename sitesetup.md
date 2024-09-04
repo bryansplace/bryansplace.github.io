@@ -28,7 +28,7 @@ The [config.yml file](https://github.com/bryansplace/bryansplace.github.io/blob/
 
 This is the metadata stuff that goes at the top of the page. I think it varies depending on which system (Jekyll) and which Theme.
 
-
+For the Jekyll Minima theme, the essential front matter fields are layout, title, date (for posts), and categories or tags. Optional fields like excerpt, author, published, and permalink offer additional control and customization. The theme also supports SEO-related fields such as description and image for better social media integration.
 
 
 
