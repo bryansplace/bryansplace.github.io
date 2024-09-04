@@ -12,4 +12,6 @@ This site is, obviously, hosted on github.
 
 I wanted a simple static site and looked at all sorts of alternatives. My main concern was to find something simple and easy. This summarizes where I'm at.
 
-Setting up the site can be done by following the [Github Skills course](https://github.com/skills/github-pages)
+Setting up the site can be done by following the [Github Skills course](https://github.com/skills/github-pages).
+
+As Github uses the Jekyll system for it's site, I thought it necessary to understand Jekyll. Error, Jekyll is undoutably very flexible but accordingly very
