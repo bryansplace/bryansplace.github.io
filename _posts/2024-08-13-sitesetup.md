@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Site setup
-date: ${mdate}$
+date: 2024-09-02
 categories:
 tags:
 
