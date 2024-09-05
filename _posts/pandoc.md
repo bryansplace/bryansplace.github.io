@@ -1,6 +1,6 @@
 ---
 title: Wordpress Export
-date: 2024-09-04
+date: ${mdate}$
 filename: "test.md"
 layout: post
 
