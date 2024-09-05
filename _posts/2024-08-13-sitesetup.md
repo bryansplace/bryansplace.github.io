@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Site setup
-date: 2024-08-13
+date: ${mdate}$
 categories:
 tags:
 
@@ -10,6 +10,8 @@ excerpt:
 description:
 
 ---
+${mdate}$
+
 ## Initial setup
 
 This site is, obviously, hosted on github. 
