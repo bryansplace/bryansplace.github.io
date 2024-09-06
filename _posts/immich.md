@@ -1,0 +1,20 @@
+---
+title: Immich
+date: 2024-09-06
+filename: "test.md"
+layout: post
+
+
+---
+## Current version
+Set in .env file
+IMMICH_VERSION="v1.113.0
+
+
+## Server docker
+
+Taken from https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml
+
+
+uses .env file
+
