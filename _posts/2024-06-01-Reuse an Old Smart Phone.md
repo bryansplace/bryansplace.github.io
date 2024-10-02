@@ -9,9 +9,13 @@ layout: post
 
 Docker can be installed onto an old smartphone using PostmarketOS .
 
-Here is step by step guide to install PostmarketOS, then Docker, then Home Assistant onto an old Xiaomi A1 (Tissot) phone. I provide links to documentation ( which usually covers all user cases and can be bewildering).
+The PostmarketOS is an alpine linux distribution for mobile phones.  It can be installed and the phones can be  used like a powerful raspberry pi. Some are fully functional phones, and many phones are 'work in progress' by enthusiasts.
 
-If you don't have a Xiaomi A1, PostmarketOS may have have a version for your device. But, beware, the large majority of devices are only partly converted by hobbyists. You might be lucky, but here only Tissot is addressed......
+Here is my step by step guide to install PostmarketOS, then Docker, then Home Assistant onto an old Xiaomi A1 (Tissot) phone.
+
+I provide links to the official documentations, but,  as lots of options are covered, I found the official documentation sometimes bewildering.
+
+If you don't have a Xiaomi A1phone, PostmarketOS may have have a version for your device. But, beware, the large majority of devices are only partly converted by hobbyists. You might be lucky, but here only Tissot is addressed......
 
 The full documentation for PostmarketOS can be found [here](https://wiki.postmarketos.org/wiki/Main_Page)
 
