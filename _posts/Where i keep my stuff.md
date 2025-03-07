@@ -1,5 +1,5 @@
 ---
-title: xxxxxxx
+title: Where I kerp my struff
 date: 2025-03-07
 filename: "test.md"
 layout: post
