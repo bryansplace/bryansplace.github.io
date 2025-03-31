@@ -55,7 +55,7 @@ Open  your web browser to, eg, 192.168.x.xxx:7860 to open the chatbot interface.
 ## Docker
 
 Starting with the docker-compose.yaml file, we need  two 'services'
-   ```ollama``` which serves the llm model on port 11434 by default. The standard dockerhub  [ollama image](https://hub.docker.com/r/ollama/ollama) is used. 
+   ```ollama``` which serves the llm model on port 11434 by default. 
     ```chatbot``` the web interface using gradio.
 
 ```
