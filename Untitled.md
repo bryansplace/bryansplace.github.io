@@ -25,6 +25,7 @@ The following sets up a container to run the Tinyllama model with a very basic G
 ```Hardware``` Obviously the bigger the better...but you can get by with not much. My sandpit system is actually an old Xiaomi Mi A1 smartphone running Alpine linux.
 
 ```Docker``` Installing docker on your specific hardware is well doumented, see [Get started with Docker]( https://www.docker.com/get-started/) ; personally, I SSH into my machine and use the command line [docker engine]( https://docs.docker.com/engine/install).
+
 ```Python``` 
 
 ```Git```
