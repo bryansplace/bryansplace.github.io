@@ -56,7 +56,7 @@ Open  your web browser to, eg, 192.168.x.xxx:7860 to open the chatbot interface.
 
 Starting with the docker-compose.yaml file, we need  two 'services'
    ```ollama``` which serves the llm model on port 11434 by default.
-    ```chatbot``` the web interface that we need to build using gradio.
+    ```chatbot``` the web interface using gradio.
 
 ```
 version: '3.8'
