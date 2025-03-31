@@ -85,9 +85,15 @@ services:
 volumes:
   ollama_data:
 ```
+## Ollama
+
+The standard dockerhub  [ollama image](https://hub.docker.com/r/ollama/ollama) is used without gpu. The specific 0.6.3 version is the latest at time of writing.
+No  llm ( Large language model) is included in the image and the specific model 'tinyllama' needs to be pulled in as specified. The specific model needs to be the same when gradio requests the response in the chatbot app.py code below.
+
+
 ## Chatbot
 
-In a sub directory named chatbot, we put three files
+In a sub directory named chatbot, there are three files
   1) app.py ; the python code for the interface
   2) requirements.txt ; the required python dependancies 
   3) dockerfile ; the instructions to build the chatbot container.
