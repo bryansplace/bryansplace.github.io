@@ -99,7 +99,10 @@ In a sub directory named chatbot, there are three files
   2) requirements.txt ; the required python dependancies 
   3) dockerfile ; the instructions to build the chatbot container.
 
-`app.py
+app.py
+This launches the web server on local host port 7860. The interface is minimal input and response.
+
+
 ```
 import gradio as gr
 import requests
@@ -119,7 +122,7 @@ def chat_with_ollama(prompt):
 
 iface = gr.Interface(
     fn=chat_with_ollama,
-    inputs=gr.Textbox(label="Your Message"),
+    inputs=gr.Textbox(label="Input"),
     outputs=gr.Textbox(label="Ollama's Response"),
     title="Bryan's Chatbot",
     description="Talk to my AI"
