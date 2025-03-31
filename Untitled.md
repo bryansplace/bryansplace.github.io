@@ -88,7 +88,7 @@ volumes:
 ## Ollama
 
 The standard dockerhub  [ollama image](https://hub.docker.com/r/ollama/ollama) is used without gpu. The specific 0.6.3 version is the latest at time of writing.
-No  llm ( Large language model) is included in the image and the specific model 'tinyllama' needs to be pulled in as specified. The specific model needs to be the same when gradio requests the response in the chatbot app.py code below.
+No  llm ( Large language model) is included in the image and the specific model 'tinyllama' needs to be pulled in as specified above. The specific model needs to be the same when gradio requests the response in the chatbot app.py code below.
 
 
 ## Chatbot
