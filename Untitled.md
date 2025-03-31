@@ -88,9 +88,9 @@ volumes:
 ## Chatbot
 
 In a sub directory named chatbot, we put three files
-  app.py , the python code for the interface
-  requirements.txt, the required python dependancies 
-  dockerfile, the instructions to build the chatbot container.
+  1) app.py ; the python code for the interface
+  2) requirements.txt ; the required python dependancies 
+  3) dockerfile ; the instructions to build the chatbot container.
 
 `app.py
 ```
