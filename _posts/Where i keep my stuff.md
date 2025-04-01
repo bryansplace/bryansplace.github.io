@@ -1,11 +1,16 @@
 ---
-title: Where I kerp my struff
+title: Where I keep my stuff
 date: 2025-03-07
 filename: "test.md"
 layout: post
 
 
 ---
+# Data
+Long term master data should be kept on the NAS
+
+
+
 ### Introduction
 
 I keep my 'notes' in too many places....
