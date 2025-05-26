@@ -2,6 +2,7 @@
 title: Home assistant docker backup
 date: 2024-12-17
 tags: hass
+publish: true
 ---
 
 Home assistant has a backup service that creates a backup in the folder ```config/backups```. I can find no way to change the default location.
