@@ -1,5 +1,5 @@
 ---
-title: xxxxxxx
+title: Local AI
 date: 2025-03-31
 filename: "test.md"
 layout: post
