@@ -24,6 +24,12 @@ As Github uses the Jekyll system for it's site, I thought it necessary to unders
 
 Error; Jekyll is undoutably very flexible but accordingly very complex..too complex. Once set up, new pages can just be added in. 
 
+## Zettel notes
+
+I looked at various applications to create markdown notes and eventually settled on 'Zettel notes'
+
+
+
 ## Config
 
 The [config.yml file](https://github.com/bryansplace/bryansplace.github.io/blob/main/_config.yml)  controls Jekyll. Mine is just  one line at present.
@@ -39,6 +45,8 @@ Github supports different themes which can change the way the site looks. An ini
 This is the metadata stuff that goes at the top of the page. I think it varies depending on which system (Jekyll) and which Theme.
 
 For the Jekyll Minima theme, the essential front matter fields are layout, title, date (for posts), and categories or tags. Optional fields like excerpt, author, published, and permalink offer additional control and customization. The theme also supports SEO-related fields such as description and image for better social media integration.
+
+
 
 
 
