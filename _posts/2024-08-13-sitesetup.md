@@ -28,7 +28,8 @@ Error; Jekyll is undoutably very flexible but accordingly very complex..too comp
 
 I looked at various applications to create markdown notes and eventually settled on [Zettel notes](https://www.zettelnotes.com).
 
-I set up a Github repository that is synced with my 
+I set up a Github repository that is synced with [Bryansplace.github.io]( https://github.com/bryansplace/bryansplace.github.io.git). This repository has to be in the apps internal storage. 
+I have a Notes repository for misc and draft notes.
 
 
 
