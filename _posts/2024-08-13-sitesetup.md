@@ -35,11 +35,13 @@ I have a Notes repository for misc and draft notes.
 
 ## Config
 
-The [config.yml file](https://github.com/bryansplace/bryansplace.github.io/blob/main/_config.yml)  controls Jekyll. Mine is just  one line at present.
+There is a [config.yml file](https://github.com/bryansplace/bryansplace.github.io/blob/main/_config.yml) that controls Jekyll. Mine is more or less  one line at present.
 
 ## Themes
 
 Github supports different themes which can change the way the site looks. An initial look indicated that I'll stick with the default 'minima' and maybe change later.
+
+
 
 
 
