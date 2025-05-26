@@ -26,7 +26,9 @@ Error; Jekyll is undoutably very flexible but accordingly very complex..too comp
 
 ## Zettel notes
 
-I looked at various applications to create markdown notes and eventually settled on 'Zettel notes'
+I looked at various applications to create markdown notes and eventually settled on [Zettel notes](https://www.zettelnotes.com).
+
+I set up a Github repository that is synced with my 
 
 
 
