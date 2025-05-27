@@ -9,7 +9,7 @@ description: >
 url: "https://bryansplace.github.io"
 bsseurl: "" # subpath, eg /blog
 
-theme: minima
+minima:
   skin: 'solarized-light'
 
 header_pages:
