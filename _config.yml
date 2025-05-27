@@ -2,7 +2,9 @@ theme: minima
 
 title: Bryan's Place
 description: >-
-My blog. Particularly how to re-use old smartphones as a homelab using the Alpine linux system for mobile devices; PostmarketOS.
+  My blog. Particularly how to re-use old     
+  smartphones as a homelab using the 
+  Alpine linux system for mobile devices; PostmarketOS.
 
 url: "https://bryansplace.github.io"
 bsseurl: "" # subpath, eg /blog
