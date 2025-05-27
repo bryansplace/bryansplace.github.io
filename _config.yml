@@ -7,7 +7,12 @@ My blog. Particularly how to re-use old smartphones as a homelab using the Alpin
 url: "https://bryansplace.github.io"
 bsseurl: "" # subpath, eg /blog
 
-th
+theme: minima
+  skin: 'solarized-light'
+
+header_pages:
+  - about.md
+  - contact.md
 
 
 
