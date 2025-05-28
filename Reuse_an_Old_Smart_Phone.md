@@ -5,6 +5,8 @@ layout: page
 ---
 # Reuse an Old Smart Phone
 
+[TOC]
+
 ## 1) Introduction
 
 [PostmarketOS](https://wiki.postmarketos.org/wiki/About_postmarketOS)  runs an alpine linux distribution on smartphones and other mobile devices. 
