@@ -2,7 +2,7 @@
 date: 2024-07-01
 title: Reuse an Old Smart Phone
 layout: page
-Toc: true
+toc: true
 ---
 # Reuse an Old Smart Phone
 
