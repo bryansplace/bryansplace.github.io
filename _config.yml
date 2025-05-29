@@ -1,8 +1,9 @@
 # _config.yml
 
 theme: minima
-
 title: Bryan's Place
+
+
 description: > 
   My blog. Particularly how to re-use old
   smartphones as a homelab using the
