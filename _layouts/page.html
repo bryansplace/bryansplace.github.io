@@ -7,13 +7,7 @@ layout: base
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
-  {# Insert the Table of Contents #}
-  {% if page.toc %} {# Optional: only show TOC if 'toc: true' in page front matter #}
-    <div class="table-of-contents">
-      <h2>Table of Contents</h2>
-      {% toc %}
-    </div>
-  {% endif %}
+
 
   <div class="post-content">
     {{ content }}
