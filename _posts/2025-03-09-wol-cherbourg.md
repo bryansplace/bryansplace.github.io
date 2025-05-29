@@ -1,6 +1,6 @@
 ---
 title: Wol Cherbourg
-date:2025-03-09
+date: 2025-03-09
 tags: hass infra
 ---
 
