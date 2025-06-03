@@ -1,5 +1,5 @@
 ---
-layout: page # This tells Jekyll to use the generic 'page' layout, not the 'home' layout that lists posts.
+layout: home 
 title: Welcome to Bryan's Place!
 permalink: / # This ensures it's the root URL
 ---
