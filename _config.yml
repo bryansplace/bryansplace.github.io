@@ -14,13 +14,13 @@ baseurl: ""
 
 minima:
   skin: 'solarized-light' 
-  hide_site_feed_link: true
+  
   nav_pages:
     - index.md
     - about.md
   show_excerpts: true
 
-
+hide_site_feed_link: true
 
 #header_pages:
 #  - index.md
