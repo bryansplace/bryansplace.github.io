@@ -18,7 +18,7 @@ minima:
   nav_pages:
     - index.md
     - about.md
-  show_excerpts: false
+  show_excerpts: true
 
 
 
