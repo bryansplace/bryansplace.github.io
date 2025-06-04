@@ -15,10 +15,16 @@ baseurl: ""
 minima:
   skin: 'solarized-light' 
   hide_site_feed_link: true
+  nav_pages:
+    - index.md
+    - about.md
+  show_excerpts: false
 
-header_pages:
-  - index.md
-  - about.md
+
+
+#header_pages:
+#  - index.md
+#  - about.md
 
 plugins:
   - jekyll-toc             
@@ -30,7 +36,7 @@ plugins:
 jekyll-toc: 
   title: "Contents"
   min_headers: 2
-  max_headers: 3
+  max_headers: 2
   ordered_list: false
 
 
