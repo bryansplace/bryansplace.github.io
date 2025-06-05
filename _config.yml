@@ -1,6 +1,10 @@
 # _config.yml
 
-theme: minima
+remote_theme: jekyll/minima@3.0
+plugins:
+  - jekyll-remote-theme
+
+#theme: minima
 title: Bryan's Place
 
 
@@ -20,24 +24,24 @@ minima:
     - about.md
   show_excerpts: true
 
-hide_site_feed_link: true
+#hide_site_feed_link: true
 
 #header_pages:
 #  - index.md
 #  - about.md
 
-plugins:
-  - jekyll-toc             
+#plugins:
+#  - jekyll-toc             
 #  - jekyll-feed           
 #  - jekyll-seo-tag
 #  - jekyll-archives
 
 
-jekyll-toc: 
-  title: "Contents"
-  min_headers: 2
-  max_headers: 2
-  ordered_list: false
+#jekyll-toc: 
+#  title: "Contents"
+#  min_headers: 2
+#  max_headers: 2
+#  ordered_list: false
 
 
 google_analytics: G-B1ECP5MEZE 
