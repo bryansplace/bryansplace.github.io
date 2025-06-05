@@ -1,6 +1,6 @@
 # _config.yml
 
-remote_theme: jekyll/minima@3.0
+remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme
 
