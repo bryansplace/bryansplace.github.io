@@ -1,4 +1,4 @@
-# Welcome to Myplace
+# Welcome to Bryans Place
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
