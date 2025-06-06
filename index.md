@@ -1,6 +1,7 @@
 ---
 layout: home 
 title: Welcome to Bryan's Place!
+nav_title: Home
 permalink: / # This ensures it's the root URL
 list_title: "Latest Posts"
 ---
