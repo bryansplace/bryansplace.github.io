@@ -11,5 +11,4 @@ Main subject is [reuse an old smartphone](/Reuse_an_Old_Smart_Phone.md) which sh
 
 I hope you find this useful.
 
-[Learn more about me](/about/)
-[Read my latest blog posts](/blog/)
+

@@ -17,31 +17,31 @@ url: "https://bryansplace.github.io"
 baseurl: "" 
 
 minima:
-  skin: 'solarized-light' 
+  skin: 'auto' 
   
   nav_pages:
     - index.md
     - about.md
-  show_excerpts: true
+  show_excerpts: false
 
 #hide_site_feed_link: true
 
-#header_pages:
-#  - index.md
-#  - about.md
+header_pages:
+  - index.md
+  - about.md
 
-#plugins:
-#  - jekyll-toc             
+plugins:
+  - jekyll-toc             
 #  - jekyll-feed           
 #  - jekyll-seo-tag
 #  - jekyll-archives
 
 
-#jekyll-toc: 
-#  title: "Contents"
-#  min_headers: 2
-#  max_headers: 2
-#  ordered_list: false
+jekyll-toc: 
+  title: "Contents"
+  min_headers: 2
+  max_headers: 2
+  ordered_list: false
 
 
 google_analytics: G-B1ECP5MEZE 
