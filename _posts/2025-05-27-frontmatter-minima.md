@@ -12,19 +12,19 @@ comments: true
 
 # Introduction
 
-The **Minima** theme, Jekyll's default, relies heavily on YAML front matter to define and structure content. Understanding these fields is key to effectively managing the site's pages and blog posts.
+The **Minima** theme, Jekyll's default, relies  on YAML front matter to define and structure content. Understanding these fields is important to effectively managing the site's pages and blog posts.
+Note that different themes use front matter in different ways
 
-# Conclusion
+## Conclusion
 
 Using the minima theme, categories and tags need additional configuration to be useful.
 
-More advanced would be to use remote themes, but this would involve setting up my oen Jekyll.
+More advanced would be to use remote themes, but this would involve setting up my owen Jekyll.
 
-# Frontmatter
+## Frontmatter
 
 Below is a breakdown of the common YAML front matter fields used by the Minima theme, explaining their purpose and typical usage.
 
----
 
 ### Common Front Matter Fields for Pages and Posts
 
