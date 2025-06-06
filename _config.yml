@@ -1,6 +1,10 @@
 # _config.yml
 
-theme: minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+
+#theme: minima
 title: Bryan's Place
 
 
@@ -13,11 +17,17 @@ url: "https://bryansplace.github.io"
 baseurl: "" 
 
 minima:
-  skin: 'solarized-light' 
+  skin: 'auto' 
+  
+  nav_pages:
+    - index.md
+    - about.md
+  show_excerpts: false
+
+#hide_site_feed_link: true
 
 header_pages:
-  - blog.md                
-  - Reuse_an_Old_Smart_Phone.md
+  - index.md
   - about.md
 
 plugins:
@@ -30,7 +40,7 @@ plugins:
 jekyll-toc: 
   title: "Contents"
   min_headers: 2
-  max_headers: 3
+  max_headers: 2
   ordered_list: false
 
 
