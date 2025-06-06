@@ -1,5 +1,6 @@
 ---
-title: Wake on LAN
+layout: post
+title: Wake on LAN python script
 date: 2024-10-10
 ---
 Need to wake up urville secondary (old server) from outside home.
