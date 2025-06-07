@@ -1,0 +1,6 @@
+--- old
++++ new
+@@ -2,1 +2,2 @@
+-title: Wake on LAN
++layout: post
++title: Wake on LAN python script

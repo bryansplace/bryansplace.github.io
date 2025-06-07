@@ -9,27 +9,25 @@ Updated: ${mdate}$
 
 This site is, obviously, hosted on github. 
 
-I wanted a simple static site and looked at all sorts of alternatives. My main concern was to find something simple, easy and without annoying adverts.
-
-Self hosting is an obvious way to go for 'No adverts' and I looked at  several alternatives but finally decided I didn't like the security risk of letting  everyone onto my home lab.
-
 Github can be used to host a web site, but it is a bit daunting for a beginner. 
 
-As Github uses the Jekyll system for it's site, I at first thought it necessary to install and  understand Jekyll. But this is not so. Jekyll is I assume undoutably very flexible but seemed  very complex..too complex with all sorts of customisations and alternatives.
+Github uses the Jekyll system for it's site and I at first thought it necessary to install and  understand Jekyll. But this is not necessary. 
 
-Github uses Jekyll in the background. If you use a supported theme and have a few files initially setup, new posts can just be added in. 
+After setting up a repository with the special name "<yourusername>.github.io" , it only takes a couple of files to get up and running. 
 
-I would advise using your web browser to do the initial set up, afterwards, posts can be added using a browser or the android app.
+After that,  just add your blog posts and github automatically detects changes and rebuilds the site.
+
+I would advise using a normal web browser to do the initial set up. Afterwards, posts can be added using  the Github android app on a phone or tablet or a normal web browser.
 
 ## Step 0 Create a Git account
 
-Your blogsite will be available at <your-user-name>.github.io. So, if you dont already have one, you might want to create your account with a friendly name; I chose BryansPlace.
+Your blogsite will be available at <your-user-name>.github.io. So, if you don't already have one, you might want to create your account with a friendly name; I chose BryansPlace.
 
 ## Step 1 Create a repository for your site
 
 The clearest guide I have found to set up the repository for the site is at the official github site  [quickstart](https://docs.github.com/en/pages/quickstart).
 
-However, that sets up a page based site, not a blog, so we need to change the theme and set up the initial file structure
+However, that sets up a page based site, not a blog. We need to change the theme and set up the initial file structure.
    bryansplace.github.io
     |-  _config.yml
     |-   index.md
@@ -37,7 +35,6 @@ However, that sets up a page based site, not a blog, so we need to change the th
     |-   about.md
      _   _posts
              |-  2026-06-01-first-post.md
-
 
 Blog posts will go in a sub-folder called _posts.
 The index.md contains the 'home' page.
@@ -62,8 +59,10 @@ theme: minima
 title: Bryan's Place
 
 description: > 
-  My blog. This description will go into the footer 
-  or each page.
+  My blog. This description will go into the footer on each page.
+```
+
+The above will give you a bare bones site
 
 minima: 
   hide_site_feed_link: true
