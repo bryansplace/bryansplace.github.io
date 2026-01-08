@@ -21,7 +21,6 @@ minima:
   
   nav_pages:
     - index.md
-    - blog.md
     - about.md
   show_excerpts: false
 
@@ -29,7 +28,12 @@ minima:
 
 header_pages:
   - index.md
+  - blog.md
   - about.md
+
+
+list_title: Misc posts
+
 
 plugins:
   - jekyll-toc             
