@@ -21,6 +21,7 @@ minima:
   
   nav_pages:
     - index.md
+    - blog.md
     - about.md
   show_excerpts: false
 
