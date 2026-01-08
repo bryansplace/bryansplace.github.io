@@ -1,16 +1,11 @@
 ---
-layout: home 
-title: Welcome to Bryan's Place!
-nav_title: Home
-permalink: / # This ensures it's the root URL
-list_title: "Latest Posts"
+layout: page
+title: Welcome to Bryan's Place
+permalink: /
 ---
 
-Hello!
-This is where I keep stuff that I want to remember in case I need to do things again.
+## Welcome to my site!
+This is now a static landing page. You can add your introduction, 
+mission statement, or links to your favorite projects here.
 
-Main subject is [reuse an old smartphone]({% post_url 2024-06-01-Reuse an Old Smart Phone %}) which shows how to install Alpine linux on an old phone and turn it into a docker based home lab which can, among most other things, run home assistant.
-
-I hope you find this useful.
-
-
+[Blog posts are here](/blog/)
