@@ -1,0 +1,24 @@
+--- old
++++ new
+@@ -2,0 +2,5 @@
++To connect the phone, four things need to be done; 
++enable USB debugging on the phone, 
++use a good USB cable, 
++put the phone into flash mode and 
++unlock the phone.
+@@ -3,1 +8,1 @@
+-### USB debugging.
++#### USB debugging.
+@@ -12,0 +17,1 @@
++####  USB cable
+@@ -13,3 +19,0 @@
+-
+-###  USB cable
+-
+@@ -19,1 +22,1 @@
+-### Flash mode
++#### Flash mode
+@@ -29,3 +32,0 @@
+-
+-
+-
