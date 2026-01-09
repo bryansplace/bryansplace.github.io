@@ -2,7 +2,7 @@
 To connect the phone, four things need to be done; 
 enable USB debugging on the phone, 
 use a good USB cable, 
-put the phone into flash mode and 
+put the phone into flash mode, and 
 unlock the phone.
 
 #### USB debugging.
