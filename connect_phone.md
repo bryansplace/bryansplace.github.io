@@ -1,70 +1,36 @@
----
-date: 2024-07-01
-title: Reuse an Old Smart Phone
-layout: post
----
-# Reuse an Old Smart Phone
-
-- TOC
-{:toc}
 
 
-## 1) Introduction
-
-Docker can be installed onto an old smartphone using PostmarketOS .
-
-The PostmarketOS is an alpine linux distribution for mobile phones.  It can be installed and the phones can be  used like a powerful raspberry pi. Some are fully functional phones, and many phones are 'work in progress' by enthusiasts.
-
-Here is my step by step guide to install PostmarketOS, then Docker, then Home Assistant onto an old Xiaomi A1 (Tissot) phone.
-
-I provide links to the official documentations, but,  as lots of options are covered, I found the official documentation sometimes bewildering.
-
-If you don't have a Xiaomi A1phone, PostmarketOS may have have a version for your device. But, beware, the large majority of devices are only partly converted by hobbyists. You might be lucky, but here only Tissot is addressed......
-
-The full documentation for PostmarketOS can be found [here](https://wiki.postmarketos.org/wiki/Main_Page)
-
-I'm pretty certain this guide works (today) for a Tissot if followed step by step; but I can't provide further help.
-
-Some steps can take a long time; wait, don't panic too fast. If something has gone wrong (probably due to my inadequate explaination or low battery), just simultaneously hold down the power and volume down buttons untill the system reboots. If it doesn't, you're probably out of power.
-
-Let's get started.
-
-## 2) PMbootstrap
-
-PostmarketOS has an installation program called [PMbootstrap](https://wiki.postmarketos.org/wiki/Pmbootstrap). This takes care of rooting and all the stuff required to install the system on your phone.
-
-However, it only runs on a linux system. If you already have one at your disposal, no problem, but I wasted a lot of time trying windows WSL (Windows Subsystem for Linux) without success as it needs to correctly access usd drivers. I eventually installed Ubuntu on an old laptop.
-
-### 2.1) Install PMbootstrap
-
-The official installation instructions can be found [here](https://wiki.postmarketos.org/wiki/Installing_pmbootstrap)
-
-I installed it a couple of years ago using pip. I'm not sure this is still valid...I leave it here for my reference....
-
-Open a terminal window ( CTRL+ALT+T) and run the following commands:
-
-    sudo apt update
-    sudo apt upgrade
-    sudo apt install python3-pip openssl git nano android-tools-adb android-tools-fastboot -y
-    sudo pip3 install --user pmbootstrap
-    sudo source ~/.profile
-To test that pmbootstrap is installed correctly, run:
-
-    pmbootstrap --version
-
-You should see the installed version.
-
-### 2.2) Enable USB connection
+### USB debugging.
 
 In order to use a USB cable to communicate between the Android phone and the computer, something called 'USB debugging' needs to be enabled on the phone.
 
+A Google search ( eg ' Xiaomi A1 enable USB debugging' ) will give lots of instructions and videos if needed.
+
+The procedure is generally:
 Go to the phone Settings -> About -> Tap build number repeatedly until developer menu is enabled. Then tap on “ developer options ” and tick USB debugging.
 
-A Google search eg ' Tissot enable USB debugging' will give lots of instructions and videos if needed.
 
-### 2.3) USB cable
+
+###  USB cable
 
 I used to think all USB cables were more or less the same. But experience taught me that they are finiky and a source of problems. A cable might work sometimes, but not other times. If things in the subsequent steps don't go right; try another cable and/or USB port.
+
+
+### Fastboot mode
+
+The communication between the computer and phone uses a protocol called Fastboot.
+
+
+With phone powered off and USB cable unplugged, hold down Volume Down and Power buttons simultaneously for a few seconds, until  Fastboot Mode screen appears.
+
+#### 3.2) OEM unlock
+
+Plug in the USB cable between PC and phone, then on the PC run:
+
+    $ sudo fastboot oem unlock
+
+When prompted on the the phone device, use Volume Up/Down buttons to highlight 'Yes' choice, then press the Power button to select it.
+
 
 ## 3) PostmarketOS
 
@@ -78,19 +44,7 @@ The Tissot is in the community category. My earlier Nexus 5 was in the testing c
 
 The official instructions contain lots and lots of info which can confuse a beginner ( at least me). The following are the steps I used.
 
-Starting from a standard, charged device...
 
-#### 3.1) Enable Fastboot mode
-
-With phone powered off and USB cable unplugged, hold down Volume Down and Power buttons simultaneously for a few seconds, until something called Fastboot Mode screen appears.
-
-#### 3.2) OEM unlock
-
-Plug in the USB cable between PC and phone, then on the PC run:
-
-    $ sudo fastboot oem unlock
-
-When prompted on the the phone device, use Volume Up/Down buttons to highlight 'Yes' choice, then press the Power button to select it.
 
 #### 3.3) Initialization
 
