@@ -29,7 +29,7 @@ The key steps are
 - Setup your network WIFI
 
 This gives you a functioning server.
-I go on to install and use
+I go on to install and use:
 
 - Docker
 - Home Assistant
@@ -38,9 +38,3 @@ I go on to install and use
 - Connect to NAS storage
 - Reduce battery voltage
 
-
----
-
-
-
-[Blog posts are here](/blog/)
