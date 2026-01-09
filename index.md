@@ -22,7 +22,7 @@ The aim of this site is to supplement the excellent PostmarketOS (pmos) document
 
 The key steps are
 - [Install Pmbootstrap](install_pmbootstrap.md)
-- Connect the phone
+- [Connect the phone](connect_phone.md)
 - PostmarketOS; initialise options
 - PostmarketOS; install the options
 - Flash new system

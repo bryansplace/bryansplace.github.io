@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -25,1 +25,1 @@
+-- Connect the phone
++- [Connect the phone](connect_phone.md)
