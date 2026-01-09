@@ -1,0 +1,11 @@
+--- old
++++ new
+@@ -19,1 +19,1 @@
+-### Fastboot mode
++### Flash mode
+@@ -21,0 +21,5 @@
++Thr phone needs to be put into flash mode.
++
++Generally, the PMOS device page will tell you how to do this. 
++https://wiki.postmarketos.org/wiki/Xiaomi_Mi_A1_(xiaomi-tissot)#How_to_enter_flash_mode
++
