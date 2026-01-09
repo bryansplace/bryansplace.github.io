@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -9,1 +9,1 @@
+-I personally found [using pip] (https://wiki.postmarketos.org/wiki/Pmbootstrap/Installation#Using_pip) simplest.
++I personally found [using pip](https://wiki.postmarketos.org/wiki/Pmbootstrap/Installation#Using_pip) simplest.
