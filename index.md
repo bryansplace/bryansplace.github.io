@@ -8,18 +8,39 @@ permalink: /
 
 ## Repurposing old smartphones
 
-Welcome to my corner of the web. I like to breath new life into "obsolete" phones. Specifically turning them into functional, low-power homelabs.
+Welcome to my corner of the web. I like to breath new life into "obsolete" phones. Specifically turning them into functional, low-power homelabs. 
 
 ### PostmarketOS
-After looking at loads of alternatives, I homed in on PostmarketOS. Although it is a system Most smartphones are retired long before their hardware is actually useless. By utilizing **PostmarketOS** (based on **Alpine Linux**), old abandoned Android devices can be used as  stable, lightweight servers.
+After looking at loads of alternatives, I homed in on PostmarketOS. 
+The big plus for me is its ability to run Docker.
+
+It has an installation program, Pmbootstrap, that makes things real simple ( no rooting). 
+
+I have two Xiaomi A1 devices that have been running for over three years with no problems.
+
+The aim of this site is to supplement the excellent PostmarketOS (pmos) documentation which contains a tremendous amount of information by focusing on my real world experiences relating to one model.
+
+The key steps are
+- Install Pmbootstrap
+- Connect the phone
+- PostmarketOS; initialise options
+- PostmarketOS; install the options
+- Flash new system
+- Setup your network WIFI
+
+This gives you a functioning server.
+I go on to install and use
+
+- Docker
+- Home Assistant
+- Jupyter
+- Bluetooth
+- Connect to NAS storage
+- Reduce battery voltage
+
 
 ---
 
-### Explore My Work
 
-* **[The Blog](/blog/)**: Deep dives into my latest builds, Alpine Linux configurations, and troubleshooting mobile hardware.
-* **[About Me](/about/)**: More on my background and why I chose the Alpine/PostmarketOS ecosystem.
-
-> "The most sustainable device is the one you already own."
 
 [Blog posts are here](/blog/)
