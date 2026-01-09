@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -24,1 +24,1 @@
+-- Install Pmbootstrap
++- [Install Pmbootstrap](install_pmbootstrap.md)
