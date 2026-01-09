@@ -1,0 +1,22 @@
+--- old
++++ new
+@@ -1,0 +1,1 @@
++ %HEADING%3-3-initialization%HEADING%
+@@ -2,0 +3,17 @@
++On your PC, run
++
++ 
++$pmbootstrap init
++ 
++
++This will give a series of options. Accept all defaults, except ( for the Tissot device) choose:
++
++Channel: Edge;
++
++Vendor: Xiaomi ;
++
++Device codename: Tissot
++
++User Interface:. none Additional packages : nano,networkmanager,networkmanager-wifi,networkmanager-cli,networkmanager-tui,wpa_supplicant
++
++You'll be asked for a username . This will later be needed for login to the phone device ( both initial Screen and later SSH)

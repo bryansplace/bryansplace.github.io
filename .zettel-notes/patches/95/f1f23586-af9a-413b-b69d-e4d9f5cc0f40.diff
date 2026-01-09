@@ -1,0 +1,10 @@
+--- old
++++ new
+@@ -1,1 +1,1 @@
+- %HEADING%3-3-initialization%HEADING%
++### Initialization
+@@ -3,0 +3,4 @@
++Your device might have a pre-built image available. There is one for my Xiaomi Tissot, but I've never used it.
++
++I want just a basic alpine server with the minimum of stuff installed. So we use the route using ```Pmbootstrap init``` to  https://wiki.postmarketos.org/wiki/Installation/Using_pmbootstrap#Installing_pmbootstrap
++

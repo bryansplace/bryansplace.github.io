@@ -1,0 +1,8 @@
+--- old
++++ new
+@@ -5,1 +5,1 @@
+-I want just a basic alpine server with the minimum of stuff installed. So we use the route using ```Pmbootstrap init``` to  https://wiki.postmarketos.org/wiki/Installation/Using_pmbootstrap#Installing_pmbootstrap
++I want just a basic alpine server with the minimum of stuff installed. So we use the route using ```Pmbootstrap init``` to tell pmbootstrap what device we have and what options we want.
+@@ -7,0 +7,2 @@
++  https://wiki.postmarketos.org/wiki/Installation/Using_pmbootstrap#Installing_pmbootstrap
++
