@@ -1,0 +1,10 @@
+--- old
++++ new
+@@ -23,1 +23,1 @@
+-Generally, the PMOS device page will tell you how to do this. 
++Generally, the PMOS device page will tell you how to do this, eg 
+@@ -25,0 +25,2 @@
++ ```
++Power on the device with both Power and Volume Down buttons down```
+@@ -26,0 +28,1 @@
++

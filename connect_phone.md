@@ -20,8 +20,11 @@ I used to think all USB cables were more or less the same. But experience taught
 
 Thr phone needs to be put into flash mode.
 
-Generally, the PMOS device page will tell you how to do this. 
+Generally, the PMOS device page will tell you how to do this, eg 
 <https://wiki.postmarketos.org/wiki/Xiaomi_Mi_A1_(xiaomi-tissot)#How_to_enter_flash_mode>
+ ```
+Power on the device with both Power and Volume Down buttons down```
+
 
 The communication between the computer and phone uses a protocol called Fastboot.
 
