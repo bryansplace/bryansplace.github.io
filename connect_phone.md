@@ -27,12 +27,9 @@ Power on the device with both Power and Volume Down buttons down
 ```
 
 
-The communication between the computer and phone uses a protocol called Fastboot.
 
 
-With phone powered off and USB cable unplugged, hold down Volume Down and Power buttons simultaneously for a few seconds, until  Fastboot Mode screen appears.
-
-#### 3.2) OEM unlock
+####  OEM unlock
 
 Plug in the USB cable between PC and phone, then on the PC run:
 
