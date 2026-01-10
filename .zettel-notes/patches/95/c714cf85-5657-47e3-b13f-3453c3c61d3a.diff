@@ -1,0 +1,17 @@
+--- old
++++ new
+@@ -11,1 +11,1 @@
+-This will give a series of options. Accept all defaults, except ( for the Tissot device) choose:
++This will give a series of options. Accept all defaults, except ( for the Xiaomi Tissot device) choose:
+@@ -15,1 +15,1 @@
+-Vendor: Xiaomi ;
++Vendor:  qcom ;
+@@ -17,1 +17,1 @@
+-Device codename: Tissot
++Device codename: msm8953
+@@ -19,1 +19,1 @@
+-User Interface:. none Additional packages : nano,networkmanager,networkmanager-wifi,networkmanager-cli,networkmanager-tui,wpa_supplicant
++User Interface: none 
+@@ -21,0 +21,2 @@
++Additional packages : nano,networkmanager,networkmanager-wifi,networkmanager-cli,networkmanager-tui,wpa_supplicant
++

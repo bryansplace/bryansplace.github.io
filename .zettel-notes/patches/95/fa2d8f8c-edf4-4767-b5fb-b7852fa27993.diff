@@ -1,0 +1,14 @@
+--- old
++++ new
+@@ -13,1 +13,1 @@
+-Channel: Edge;
++- Channel: Edge;
+@@ -17,1 +17,1 @@
+-Device codename: msm8953
++- Device codename: msm8953
+@@ -19,1 +19,1 @@
+-User Interface: none 
++- User Interface: none
+@@ -23,1 +23,1 @@
+-Additional packages : nano,networkmanager,networkmanager-wifi,networkmanager-cli,networkmanager-tui,wpa_supplicant
++- Additional packages : nano,networkmanager,networkmanager-wifi,networkmanager-cli,networkmanager-tui,wpa_supplicant

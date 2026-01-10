@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -3,0 +3,2 @@
++The initialisation sets up PMbootstrap with you phone make and model together with any options, eg additional software.
++

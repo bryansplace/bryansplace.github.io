@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -24,1 +24,1 @@
+-You'll be asked for a username . This will later be needed for login to the phone device ( both initial Screen and later SSH)
++You'll be asked for a username . This will later be needed for login to the phone device (  thru SSH)

@@ -21,9 +21,9 @@ I have two Xiaomi A1 devices that have been running for over three years with no
 The aim of this site is to supplement the excellent PostmarketOS (pmos) documentation which contains a tremendous amount of information by focusing on my real world experiences relating to one model.
 
 The key steps are
-- [Install Pmbootstrap](install_pmbootstrap.md)
+- [Install Pmbootstrap on PC](install_pmbootstrap.md)
 - [Connect the phone](connect_phone.md)
-- PostmarketOS; initialise options
+- [PostmarketOS; initialise options](pmbootstrap_init.md)
 - PostmarketOS; install the options
 - Flash new system
 - Setup your network WIFI

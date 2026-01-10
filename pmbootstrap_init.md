@@ -1,27 +1,30 @@
-### Initialization
+### Initialisation
+
+The initialisation sets up PMbootstrap with you phone make and model together with any options, eg additional software.
 
 Your device might have a pre-built image available. There is one for my Xiaomi Tissot, but I've never used it.
 
-I want just a basic alpine server with the minimum of stuff installed. So we use the route using ```Pmbootstrap init``` to tell pmbootstrap what device we have and what options we want.
+I want just a basic alpine server with the minimum of stuff installed. So we use the route using [Pmbootstrap init](https://wiki.postmarketos.org/wiki/Installation/Using_pmbootstrap#Initializing_pmbootstrap)   to tell pmbootstrap what device we have and what options we want.
 
-https://wiki.postmarketos.org/wiki/Installation/Using_pmbootstrap#Initializing_pmbootstrap
-
-  https://wiki.postmarketos.org/wiki/Installation/Using_pmbootstrap#Installing_pmbootstrap
-
-On your PC, run
-
- 
-$pmbootstrap init
+On your PC, run 
+```$pmbootstrap init```
  
 
-This will give a series of options. Accept all defaults, except ( for the Tissot device) choose:
+This will give a series of options. Accept all defaults, except ( for the Xiaomi Tissot device) choose:
 
-Channel: Edge;
+- Channel: Edge;
+- Vendor:  qcom ;
+- Device codename: msm8953
+- User Interface: none
 
-Vendor: Xiaomi ;
+  As I just want a server, I don't want any user interface. Connection is through SSH.
 
-Device codename: Tissot
+- Additional packages : nano,networkmanager,networkmanager-wifi,networkmanager-cli,networkmanager-tui,wpa_supplicant
 
-User Interface:. none Additional packages : nano,networkmanager,networkmanager-wifi,networkmanager-cli,networkmanager-tui,wpa_supplicant
+  Surprisingly, the qcom package doesn't have standard network manager. So its best to add them in here.
 
-You'll be asked for a username . This will later be needed for login to the phone device ( both initial Screen and later SSH)
+You'll be asked for a username . This will later be needed for login to the phone device (  thru SSH)
+
+### Install
+
+The command ```pmbootstrap install```

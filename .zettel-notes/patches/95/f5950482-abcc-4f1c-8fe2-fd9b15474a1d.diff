@@ -1,0 +1,8 @@
+--- old
++++ new
+@@ -21,0 +21,2 @@
++  As I just want a server, I don't want any user interface. Connection is through SSH.
++
+@@ -23,0 +25,2 @@
++  Surprisingly, the qcom package doesn't have standard network manager. So its best to add them in here.
++
