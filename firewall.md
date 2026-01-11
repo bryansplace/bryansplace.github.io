@@ -12,4 +12,24 @@ sudo rc-status | grep nftables
 sudo rc-service nftables start
 ```
 
-As I use the device as a home lab, lots of different ports might be used, so I want the firewall to allow all traffic from my home lan using wlan0
+As I use the device as a home lab, lots of different ports might be used, I want the firewall to allow all traffic from my home lan using wlan0
+
+To create a rule file to allow all traffic on interface wlan0. Create a new file in /etc/nftables.d/:
+```
+sudo mkdir -p /etc/nftables.d
+sudo nano /etc/nftables.d/homeassistant.nft
+```
+```
+#!/usr/sbin/nft -f
+
+# Allow all traffic from home LAN on wlan0
+table inet filter {
+    chain input {
+        iifname wlan0 accept comment "Allow all traffic from home LAN (wlan0)"
+    }
+}
+```
+
+
+Save and exit, then reload the firewall:
+```sudo rc-service nftables restart```

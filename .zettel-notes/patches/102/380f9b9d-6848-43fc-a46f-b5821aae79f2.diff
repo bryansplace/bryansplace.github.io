@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -17,1 +17,1 @@
+-To create a rule file to allow Home Assistant and other services. Create a new file in /etc/nftables.d/:
++To create a rule file to allow all traffic on interface wlan0. Create a new file in /etc/nftables.d/:

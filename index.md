@@ -32,6 +32,7 @@ This gives you a functioning server.
 I go on to install and use:
 
 - [Docker](docker.md)
+- [Firewall](firewall.md)
 - [Home Assistant](hass.md)
 - Jupyter
 - Bluetooth
