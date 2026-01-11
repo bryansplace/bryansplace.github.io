@@ -1,0 +1,6 @@
+--- old
++++ new
+@@ -3,1 +3,2 @@
+-The install will have created two files that need to be flashed to the phone; lk2nd (
++The install will have created two files that need to be flashed to the phone; lk2nd ( a qualcom secondary bootloader) and rootfs
++( the root file system)

@@ -1,0 +1,22 @@
+--- old
++++ new
+@@ -15,1 +15,0 @@
+-The system should reboot. As the display option was none, there is little indication that things have succeded
+@@ -17,1 +16,0 @@
+-Wait a while (a couple of minutes) as the phone reboots with PostmarketOS.
+@@ -19,0 +17,4 @@
++Wait a while (a couple of minutes) as the phone reboots PostmarketOS. 
++
++As the display option was none, there is little indication that things have succeded
++
+@@ -20,0 +22,10 @@
++
++Login and enable SSH
++
++With the USB cable still connected, from your PC terminal ; with your user name run
++```
++    $ssh user@172.16.42.1  
++```
++You will be asked for your password.
++
++Hopefully, you now have control of the phone from your computer.

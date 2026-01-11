@@ -1,0 +1,31 @@
+--- old
++++ new
+@@ -4,0 +4,12 @@
++```
++    sudo apk upgrade
++    sudo apk update
++    sudo apk add docker
++    sudo addgroup bryan docker         
++    sudo rc-update add docker boot
++    sudo service docker start
++    sudo apk add docker-cli-compose
++    sudo reboot
++```    
++    
++Obviously change 'bryan' for your user name...
+@@ -5,0 +17,1 @@
++### Test Docker
+@@ -6,0 +19,13 @@
++To check docker, run
++```
++    docker run hello-world
++```
++This should pull and run a very simple test that prints a message "Hello from Docker" and then exit.
++
++### Clean up
++
++Assuming all is ok, run:
++```
++    docker system prune -a
++```
++This will clean up and remove all docker stuff that is not being used.

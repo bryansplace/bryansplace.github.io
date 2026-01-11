@@ -25,6 +25,3 @@ This will give a series of options. Accept all defaults, except ( for the Xiaomi
 
 You'll be asked for a username . This will later be needed for login to the phone device (  thru SSH)
 
-### Install
-
-The command ```pmbootstrap install```

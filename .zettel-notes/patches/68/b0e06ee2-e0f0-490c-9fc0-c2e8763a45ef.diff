@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -28,1 +28,1 @@
+-- Flash new system
++- [Flash new system](pmbootstrap_flasher.md)

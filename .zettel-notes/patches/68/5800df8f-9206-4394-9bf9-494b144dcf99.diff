@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -27,1 +27,1 @@
+-- PostmarketOS; install the options
++- [PostmarketOS; install options](pmbootstrap_install.md)

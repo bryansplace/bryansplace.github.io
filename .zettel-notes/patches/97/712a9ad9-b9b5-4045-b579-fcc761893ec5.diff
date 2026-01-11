@@ -1,0 +1,7 @@
+--- old
++++ new
+@@ -21,1 +21,0 @@
+-Then, use SSH to connect thru the usb cable 
+@@ -23,1 +22,1 @@
+-Login and enable SSH
++### Login thru SSH
