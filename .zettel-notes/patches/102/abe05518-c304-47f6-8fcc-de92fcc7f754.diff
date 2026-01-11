@@ -1,0 +1,4 @@
+--- old
++++ new
+@@ -15,0 +15,1 @@
++As I use the device as a home lab, lots of different ports might be used, so I want the firewall to allow all traffic from my home lan using wlan0

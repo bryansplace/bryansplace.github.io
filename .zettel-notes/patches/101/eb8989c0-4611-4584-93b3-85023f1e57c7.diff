@@ -1,0 +1,6 @@
+--- old
++++ new
+@@ -6,2 +6,1 @@
+-    sudo apk add dbus-broker
+-    sudo rc-update add bluetooth boot
++    sudo rc-update add bluetooth default
