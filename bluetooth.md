@@ -3,8 +3,7 @@
 To set up bluetooth ;
 
     sudo apk add bluez
-    sudo apk add dbus-broker
-    sudo rc-update add bluetooth boot
+    sudo rc-update add bluetooth default
     sudo service bluetooth start
 
     bluetoothctl power on
