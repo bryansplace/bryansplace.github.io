@@ -1,0 +1,14 @@
+--- old
++++ new
+@@ -42,1 +42,1 @@
+-### 6.1) Create storage volumes
++Note: The mosquitto MQTT broker needs a config file, create it with :
+@@ -44,8 +44,0 @@
+-So, to create the storage volumes on the PostmarkerOS phone I suggest:
+-
+-    mkdir ~/volumes
+-    mkdir ~/volumes/hass
+-    mkdir ~/volumes/mosquitto
+-    mkdir ~/volumes/mosquitto/config
+-The mosquitto MQTT broker needs a config file, create it with :
+-

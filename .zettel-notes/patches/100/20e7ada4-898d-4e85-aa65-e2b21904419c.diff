@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -3,1 +3,1 @@
+-Using docker-compose to install Home Assistant is documented in <https://www.home-assistant.io/installation/linux> section 'Install Home Assistant Container'.
++Using docker-compose to install Home Assistant is documented in <https://www.home-assistant.io/installation/linux> ; section 'Install Home Assistant Container'.
