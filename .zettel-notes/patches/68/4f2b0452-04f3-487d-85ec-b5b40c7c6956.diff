@@ -1,0 +1,7 @@
+--- old
++++ new
+@@ -34,2 +34,2 @@
+-- Docker
+-- Home Assistant
++- [Docker](docker.md)
++- [Home Assistant](hass.md)

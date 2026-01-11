@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -9,1 +9,1 @@
+-    sudo rc-update add docker boot
++    sudo rc-update add docker default

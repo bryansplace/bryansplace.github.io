@@ -26,13 +26,13 @@ The key steps are
 - [PostmarketOS; initialise options](pmbootstrap_init.md)
 - [PostmarketOS; install options](pmbootstrap_install.md)
 - [Flash new system](pmbootstrap_flasher.md)
-- Setup your network WIFI
+- [Setup your network WIFI](setup_wifi.md)
 
 This gives you a functioning server.
 I go on to install and use:
 
-- Docker
-- Home Assistant
+- [Docker](docker.md)
+- [Home Assistant](hass.md)
 - Jupyter
 - Bluetooth
 - Connect to NAS storage

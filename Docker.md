@@ -6,7 +6,7 @@ Just follow the official guide for [Docker on Alpine linux]( https://wiki.alpine
     sudo apk update
     sudo apk add docker
     sudo addgroup bryan docker         
-    sudo rc-update add docker boot
+    sudo rc-update add docker default
     sudo service docker start
     sudo apk add docker-cli-compose
     sudo reboot
@@ -17,8 +17,8 @@ Obviously change 'bryan' for your user name...
 ### Test Docker
 
 To check docker, run
-```
-    docker run hello-world
+```    
+docker run hello-world 
 ```
 This should pull and run a very simple test that prints a message "Hello from Docker" and then exit.
 
