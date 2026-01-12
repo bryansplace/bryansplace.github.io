@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -37,1 +37,1 @@
+-- R[educe battery voltage](battery_voltage.md)
++- [Reduce battery voltage](battery_voltage.md)

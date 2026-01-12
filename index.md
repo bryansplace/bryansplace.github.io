@@ -34,8 +34,9 @@ I go on to install and use:
 - [Docker](docker.md)
 - [Firewall](firewall.md)
 - [Home Assistant](hass.md)
+- [Reduce battery voltage](battery_voltage.md)
 - Jupyter
 - Bluetooth
 - Connect to NAS storage
-- Reduce battery voltage
+
 
