@@ -1,0 +1,7 @@
+--- old
++++ new
+@@ -192,1 +192,3 @@
+-#### Notes
++I don't know why, but after the reboot, the USB cable needs to be physically unplugged and reconnected. Otherwise, it is left in a discharging state.
++
++#### Notes 
