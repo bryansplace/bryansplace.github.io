@@ -8,8 +8,14 @@ For testing,
 sudo rc-service nftables stop
 # Check if it's stopped
 sudo rc-status | grep nftables
+# Remove firewall from reboot startup
+sudo rc-update del nftables
+
 # To start it again:
 sudo rc-service nftables start
+# Add firewall to reboot startup
+sudo rc-update add nftables default
+
 ```
 
 As I use the device as a home lab, lots of different ports might be used, I want the firewall to allow all traffic from my home lan using wlan0

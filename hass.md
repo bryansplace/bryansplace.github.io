@@ -5,10 +5,12 @@ The Home Assistant site gives instructions how to set up using docker-compose;  
 I'll not confuse things by repeating that here.
 
 I think key points to note are:
-1) For docker to 'see' storage outside its containers, 'volumes' need to be mapped.  
+1) For docker to 'see' storage outside its containers, 'volumes' need to be mapped.
+  
 2) Home Assistant Container installations don’t have access to add-ons. For example, MQTT.
-3) The container must use 'host' mode to access your lan. The ports mentioned in older documentation is now not allowed when usin network mode hosts.
-  theory, you can follow those instructions. However, I think it is better to create storage volumes first because, if you let Docker make them, you will not have permissions to modify them outside of Home assistant.
+
+3) The container must use 'host' mode to access your lan. The ports mentioned in older documentation is now not allowed when using network mode hosts.
+
   
  For info, here is my docker-compose.yaml
  ```
@@ -49,4 +51,6 @@ Set the configuration as:
     listener 1883 0.0.0.0
     # logging
     log_type none  
+    
+    
 ( Ctrl- O & Ctrl-X to save and exit)

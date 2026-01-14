@@ -1,0 +1,15 @@
+--- old
++++ new
+@@ -8,1 +8,2 @@
+-1) For docker to 'see' storage outside its containers, 'volumes' need to be mapped.  
++1) For docker to 'see' storage outside its containers, 'volumes' need to be mapped.
++  
+@@ -10,2 +11,3 @@
+-3) The container must use 'host' mode to access your lan. The ports mentioned in older documentation is now not allowed when usin network mode hosts.
+-  theory, you can follow those instructions. However, I think it is better to create storage volumes first because, if you let Docker make them, you will not have permissions to modify them outside of Home assistant.
++
++3) The container must use 'host' mode to access your lan. The ports mentioned in older documentation is now not allowed when using network mode hosts.
++
+@@ -52,0 +54,2 @@
++    
++    
