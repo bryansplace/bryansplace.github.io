@@ -1,0 +1,6 @@
+--- old
++++ new
+@@ -18,1 +18,2 @@
+-This  adds bluetooth software, sets it to start after a reboot, and start a scan for bluetooth low energy ( ble) devices. Exit to stop.
++This  adds bluetooth software, sets it to start after a reboot, and start a scan for bluetooth low energy ( ble) devices. 
++'Exit' to stop.

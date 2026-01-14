@@ -1,0 +1,17 @@
+--- old
++++ new
+@@ -20,0 +20,1 @@
++Home assistant tries to detect a USB adapter and gives an error with the phones bluetooth device. It is annoying but bluetooth still works.
+@@ -21,0 +22,7 @@
++When using docker, the dbus volume needs to be mapped into the container:
++```    
++    volumes:
++      ...
++      ....
++       - /run/dbus:/run/dbus:ro
++```
+@@ -22,0 +30,4 @@
++
++
++
++

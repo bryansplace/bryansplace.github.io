@@ -1,0 +1,17 @@
+--- old
++++ new
+@@ -3,1 +3,1 @@
+-To set up bluetooth ;
++Bluetooth can be used which is especially usefull in home assistant.
+@@ -5,0 +5,4 @@
++But....I always have problems with it....and end up getting it working, but loose track of exactly what I did.
++
++To set up bluetooth, this 'should' work ;
++
+@@ -13,1 +17,0 @@
+-This will add bluetooth software, set it to start after a reboot, and start a scan for bluetooth low energy ( le) devices. Exit to stop.
+@@ -15,0 +18,4 @@
++This  adds bluetooth software, sets it to start after a reboot, and start a scan for bluetooth low energy ( ble) devices. Exit to stop.
++
++
++

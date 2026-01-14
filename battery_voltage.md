@@ -2,7 +2,7 @@
 
 ### Purpose
 When using an old smartphone as a permanent server that's always plugged into power, the battery is a weak point. 
-Some people propose using a remote control wifi power switch. Others propose removing the battery ( not simple as battery is often required to start)
+Some people propose using a remote control wifi power switch. Others propose removing the battery ( not simple as the battery is often required to start)
 
  I decided just to reduce battery maximum design voltage.   
  
@@ -10,7 +10,12 @@ Some people propose using a remote control wifi power switch. Others propose rem
  
 My newer Xiaomi A1 doesn't allow this, the device tree needs to be modified, which is not difficult but probably more risky if not done correctly ( Back to Fastboot and reflash).
 
-Note: You might like to point your trusty AI to this page to get advise on your device.
+[If your lucky](#if-your-lucky)
+[Modify device tree](#modify-device-tree)
+
+Note: You might like to point your trusty AI to this page to get advice on your device.
+
+
 
 ### If your lucky
 
@@ -111,9 +116,10 @@ This will show the line number containing the voltage setting.
 
 ### 5. Modify the Voltage
 
-```bash
-# Change from 4.4V (0x432380) to 3.8V (0x39f880)
-# Adjust line number (3959) based on your grep output
+Change from 4.4V (0x432380) to 3.8V (0x39f880)
+
+IMPORTANT: Adjust line number (3959) based on your grep output
+```
 sed -i '3959s/0x432380/0x39f880/' ~/tissot.dts
 ```
 
@@ -137,7 +143,7 @@ printf "0x%x\n" 3800000
 
 ### 6. Verify the Change
 
-```bash
+```
 grep -n -A 2 -B 2 "voltage-max-design-microvolt" ~/tissot.dts
 ```
 
@@ -145,7 +151,7 @@ Confirm the hex value has changed to your target voltage.
 
 ### 7. Recompile Device Tree
 
-```bash
+```
 dtc -I dts -O dtb ~/tissot.dts -o ~/tissot-modified.dtb
 ```
 
@@ -159,7 +165,7 @@ sudo cp ~/tissot-modified.dtb /boot/msm8953-xiaomi-tissot.dtb
 
 ### 9. Reboot
 
-```bash
+```
 sudo reboot
 ```
 
@@ -167,7 +173,7 @@ sudo reboot
 
 After reboot, check that the new voltage limit is active:
 
-```bash
+```
 cat /sys/class/power_supply/qcom-battery/voltage_max_design
 cat /sys/class/power_supply/qcom-battery/voltage_now
 ```
@@ -183,7 +189,9 @@ sudo cp /boot/msm8953-xiaomi-tissot.dtb.backup /boot/msm8953-xiaomi-tissot.dtb
 sudo reboot
 ```
 
-#### Notes
+I don't know why, but after the reboot, the USB cable needs to be physically unplugged and reconnected. Otherwise, it is left in a discharging state.
+
+#### Notes 
 - The minimum safe voltage is 3.4V - never go below this
 - Lower voltages extend battery life but reduce available capacity
 - For permanent server use, 3.8V is a good balance

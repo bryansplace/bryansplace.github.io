@@ -1,0 +1,8 @@
+--- old
++++ new
+@@ -38,0 +38,1 @@
++- [Bluetooth](bluetooth.md)
+@@ -39,1 +40,0 @@
+-- Bluetooth
+@@ -41,0 +41,1 @@
++- Tailscale

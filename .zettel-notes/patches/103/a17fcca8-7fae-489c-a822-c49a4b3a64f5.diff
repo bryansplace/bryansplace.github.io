@@ -1,0 +1,29 @@
+--- old
++++ new
+@@ -5,1 +5,1 @@
+-Some people propose using a remote control wifi power switch. Others propose removing the battery ( not simple as battery is often required to start)
++Some people propose using a remote control wifi power switch. Others propose removing the battery ( not simple as the battery is often required to start)
+@@ -15,0 +15,3 @@
++[If your lucky](###-if-your-lucky)
++[Modify device tree](###-modify-device-tree)
++
+@@ -114,3 +117,4 @@
+-```bash
+-# Change from 4.4V (0x432380) to 3.8V (0x39f880)
+-# Adjust line number (3959) based on your grep output
++Change from 4.4V (0x432380) to 3.8V (0x39f880)
++
++IMPORTANT: Adjust line number (3959) based on your grep output
++```
+@@ -140,1 +144,1 @@
+-```bash
++```
+@@ -148,1 +152,1 @@
+-```bash
++```
+@@ -162,1 +166,1 @@
+-```bash
++```
+@@ -170,1 +174,1 @@
+-```bash
++```

@@ -35,8 +35,9 @@ I go on to install and use:
 - [Firewall](firewall.md)
 - [Home Assistant](hass.md)
 - [Reduce battery voltage](battery_voltage.md)
+- [Bluetooth](bluetooth.md)
 - Jupyter
-- Bluetooth
 - Connect to NAS storage
+- Tailscale
 
 

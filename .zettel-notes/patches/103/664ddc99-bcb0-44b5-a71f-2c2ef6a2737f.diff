@@ -1,0 +1,7 @@
+--- old
++++ new
+@@ -15,2 +15,2 @@
+-[If your lucky](###-if-your-lucky)
+-[Modify device tree](###-modify-device-tree)
++[If your lucky](#-if-your-lucky)
++[Modify device tree](#-modify-device-tree)
