@@ -1,19 +1,25 @@
 ## Reduce Battery Voltage
 
-### Purpose
-When using an old smartphone as a permanent server that's always plugged into power, the battery is a weak point. 
-Some people propose using a remote control wifi power switch. Others propose removing the battery ( not simple as the battery is often required to start)
+When using an old smartphone as a permanent server that's always plugged into power, the battery is a  point of concern. Batteries have been known to degrade and even catch fire.
 
- I decided just to reduce battery maximum design voltage.   
- 
- If you are lucky, you might be able to just overwrite the current value ( as I did for an old Nexus).
- 
-My newer Xiaomi A1 doesn't allow this, the device tree needs to be modified, which is not difficult but probably more risky if not done correctly ( Back to Fastboot and reflash).
+Some people propose removing the battery but this is not simple.  The battery is often checked by software as it is required to start the device.
+
+Some people propose using a remote control wifi power switch.
+
+I decided just to reduce battery maximum  voltage.   
+
+Unfortunately, the battery control is very device dependant, devices have different hardware (PMICs, power management integrated cicuits) which require different software. 
+
+I have exoeriences with an old Nexus 7 and  a less old Xiaomi A1.
+
+The Nexus 7 charger software actually allowed me to change the maximum battery voltage.
+
+The newer Xiaomi ( which uses  the generic qcom-msm8953 firmware) does not. But I show below how to change the 'device tree' to change the maximum battery voltage. This is not difficult but probably more risky if not done correctly ( but not fatal, go back to Fastboot and reflash).
 
 [If your lucky](#if-your-lucky)
 [Modify device tree](#modify-device-tree)
 
-Note: You might like to point your trusty AI to this page to get advice on your device.
+Note: You might like to point your trusty AI friend to this page to get specific advice for your device.
 
 
 
