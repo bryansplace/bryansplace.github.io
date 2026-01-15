@@ -6,7 +6,7 @@ Some people propose removing the battery but this is not simple.  The battery is
 
 Some people propose using a remote control wifi power switch.
 
-I decided just to keep it at a reduced battery  voltage and .  This is better( than repeated charge/discharge. 
+I decided just to keep it at a reduced battery  voltage and .  This is [better](_posts/battery_strategy.md) than repeated charge/discharge. 
 
 Unfortunately, the battery control is very device dependant, devices have different hardware (PMICs, power management integrated cicuits) which require different software. 
 
