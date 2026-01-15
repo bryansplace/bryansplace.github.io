@@ -1,0 +1,51 @@
+--- old
++++ new
+@@ -4,1 +4,47 @@
+-Keeping the battery around a moderate, rel
++Keeping the battery around a moderate, relatively **low** state of charge (e.g. ~3.7–3.8 V open-circuit for typical Li‑ion/phone chemistries) with minimal cycling generally causes less degradation than repeatedly cycling it between 3.6 and 3.8 V, provided temperature is controlled. [Kalaga et al., 2018][1][Battery University, 2025][2][Asiri et al., 2025][3][Asiri et al., 2025 (P2D model)][4]
++
++## Key degradation mechanisms
++
++- Lithium‑ion cells age via:
++  - Calendar aging: side reactions (SEI growth, electrolyte oxidation/reduction) that proceed whenever the cell sits at a given voltage, strongly accelerated by high voltage and high temperature. [Asiri et al., 2025][3][Asiri et al., 2025 (P2D model)][4]
++  - Cycle aging: mechanical/electrochemical damage from repeated Li intercalation/de‑intercalation (volume changes, microcracking, loss of active material). [Kalaga et al., 2018][1][Luo & Mei, 2017][5]
++- At higher SOC/voltage the graphite anode is more lithiated, lowering its potential and increasing the thermodynamic driving force for electrolyte reduction and SEI growth, hence faster capacity loss. [Asiri et al., 2025][3][Asiri et al., 2025 (P2D model)][4]
++
++## Effect of voltage / SOC level
++
++- Experiments and modeling show that elevated SOC during storage (e.g. 80–100 %) significantly accelerates SEI growth and capacity loss compared with mid‑SOC (around 40–60 %), particularly at higher temperatures. [Asiri et al., 2025][3][Asiri et al., 2025 (P2D model)][4]
++- An engineering rule of thumb is that every reduction of about 0.10 V in maximum charge voltage (from a standard 4.2 V) roughly doubles cycle life, with an optimum longevity often around ~3.9–3.95 V for many Li‑ion chemistries, though usable capacity is reduced. [Battery University, 2025][2]
++- Experimental and engineering analyses of automotive cells indicate that cells cycled at very low SOC and very high SOC degrade faster than those cycled in a moderate SOC window, consistent with avoiding extremes. [Battery University, 2025][2][Kalaga et al., 2018][1]
++
++## Small window cycling vs holding
++
++- Cycling, even over a narrow SOC window, adds a cycle‑aging component on top of calendar aging, because each Li insertion/extraction step contributes mechanical and interfacial damage over time. [Kalaga et al., 2018][1][Luo & Mei, 2017][5]
++- For a given average SOC and temperature, a cell that is simply held at that SOC (no current, no mechanical stress) experiences only calendar aging, whereas a cell repeatedly cycled around that SOC sees both calendar and cycle aging. [Kalaga et al., 2018][1][Grepow blog, 2023][6]
++- Studies focused on EV usage and lifetime optimization consistently recommend:
++  - Avoid high SOC storage (near 100 %), especially when warm. [Battery University, 2025][2][Asiri et al., 2025][3][Asiri et al., 2025 (P2D model)][4][Grepow blog, 2023][6]
++  - Operate and store around mid‑SOC (roughly 30–70 %) to minimize the combined aging rate. [Battery University, 2025][2][Asiri et al., 2025][3]
++- Shallow cycling at low SOC can be particularly harmful in some Si‑containing systems when pushed to extremes, whereas storage at low SOC without cycling does not show similarly accelerated calendar aging. [Kalaga et al., 2018][1][Luo & Mei, 2017][5]
++
++## Applying this to 3.6–3.8 V vs ~3.7 V flat
++
++- In your proposed ranges, both 3.6 and 3.8 V are in a relatively gentle region: well below typical 4.2 V full charge, far from low‑voltage cutoffs and high‑SOC stress. [Battery University, 2025][2]
++- Within such a benign window, the literature indicates:
++  - Lower voltage (within reason) decreases the rate of calendar aging by reducing side‑reaction driving forces. [Battery University, 2025][2][Asiri et al., 2025][3][Asiri et al., 2025 (P2D model)][4]
++  - Additional cycling around that voltage adds measurable cycle aging without a compensating reduction in calendar aging beyond what you already gain by being in this low‑voltage regime. [Kalaga et al., 2018][1][Luo & Mei, 2017][5]
++- Therefore, a phone battery that is simply held near a constant moderate‑low voltage (roughly corresponding to mid‑SOC for that chemistry) should, in theory, minimize total degradation compared with intentionally inducing frequent shallow cycles over a similarly low window, assuming the same average SOC and temperature. [Kalaga et al., 2018][1][Battery University, 2025][2][Asiri et al., 2025][3]
++
++## Practical rule of thumb for phones
++
++- For phones using typical Li‑ion or Li‑poly cells:
++  - Keep average SOC moderate (roughly 30–70 %, corresponding to a voltage in the high‑3.x V region rather than near 4.2 V). [Battery University, 2025][2][Asiri et al., 2025][3]
++  - Avoid unnecessary cycling just for the sake of “keeping it moving”; shallow cycles in a low window are better than deep 0–100 % cycles, but still worse than simply staying at a moderate SOC when the device is idle. [Kalaga et al., 2018][1][Battery University, 2025][2]
++  - Avoid long‑term storage at 100 % or at very low SOC, especially when warm. [Battery University, 2025][2][Asiri et al., 2025][3][Grepow blog, 2023][6]
++
++---
++
++[1]: https://www.osti.gov/servlets/purl/1465507 "Kalaga et al., 'Calendar-life versus cycle-life aging of lithium-ion cells with silicon–graphite anodes', 2018"
++[2]: http://www.batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries/ "Battery University, 'BU-808: How to Prolong Lithium-based Batteries', accessed 2025"
++[3]: https://pubs.rsc.org/en/content/articlehtml/2025/ra/d5ra03735b "Asiri et al., 'Impact of temperature and state-of-charge on long-term storage degradation in lithium-ion batteries', RSC Advances, 2025 (HTML)"
++[4]: https://pmc.ncbi.nlm.nih.gov/articles/PMC12219620/ "Asiri et al., same study (P2D calendar-aging model, open-access version), 2025"
++[5]: https://c3e.org/s/Luo-Mei_Calendar-life-vs-Cycle-life-Aging-for-Silicon-Anode.pdf "Luo & Mei, 'Calendar-life vs. Cycle-life Aging for Silicon Anode', presentation"
++[6]: https://www.grepow.com/blog/lithium-ion-battery-cycle-life-vs-calendar-life-vs-shelf-life.html "Grepow, 'Lithium-ion Battery Cycle Life vs. Calendar Life vs. Shelf Life', 2023"
