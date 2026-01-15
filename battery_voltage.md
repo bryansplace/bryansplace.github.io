@@ -10,7 +10,7 @@ I decided just to keep it at a reduced battery  voltage and .  This is [better](
 
 Unfortunately, the battery control is very device dependant, devices have different hardware (PMICs, power management integrated cicuits) which require different software. 
 
-I have exoeriences with an old Nexus 7 and  a less old Xiaomi A1.
+I have experiences with an old Nexus 7 and  a less old Xiaomi A1.
 
 The Nexus 7 charger software actually allowed me to change the maximum battery voltage.
 
