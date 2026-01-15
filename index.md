@@ -38,6 +38,6 @@ I go on to install and use:
 - [Bluetooth](bluetooth.md)
 - Jupyter
 - Connect to NAS storage
-- Tailscale
+- [Tailscale](tailscale.md)
 
 
