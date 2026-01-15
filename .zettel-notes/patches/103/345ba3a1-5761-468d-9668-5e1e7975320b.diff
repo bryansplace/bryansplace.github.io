@@ -1,0 +1,42 @@
+--- old
++++ new
+@@ -194,0 +194,39 @@
++To avoid this, create a startup script to do this automatically after each reboot:
++```
++# Create the startup script
++sudo mkdir -p /etc/local.d
++sudo nano /etc/local.d/reset-charging.start
++```
++Add this content:
++```
++#!/bin/sh
++# Reset USB charging after boot
++# Wait for system to fully initialize
++sleep 10
++
++# Toggle USB online to reset charger state
++echo 0 > /sys/class/power_supply/qcom-smbchg-usb/online
++sleep 2
++echo 1 > /sys/class/power_supply/qcom-smbchg-usb/online
++
++logger "USB charging reset completed"
++```
++
++Make it executable and enable the local service:
++```
++sudo chmod +x /etc/local.d/reset-charging.start
++sudo rc-update add local default
++```
++Now test it:
++```
++# Reboot and see if it automatically starts charging
++sudo reboot
++```
++After reboot, wait about 15 seconds, then check:
++```
++cat /sys/class/power_supply/qcom-smbchg-usb/status
++cat /sys/class/power_supply/qcom-battery/status
++```
++Both should show "Charging" (or "Not charging" if already at 3.8V).
++
++
