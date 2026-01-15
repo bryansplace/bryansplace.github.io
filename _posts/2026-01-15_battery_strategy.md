@@ -1,7 +1,16 @@
+---
+layout: page
+title: Battery Stategy
+date: 2026-01-15
+---
+Updated: ${mdate}$
+
 
 TL;DR
 
 Keeping the battery around a moderate, relatively **low** state of charge (e.g. ~3.7–3.8 V open-circuit for typical Li‑ion/phone chemistries) with minimal cycling generally causes less degradation than repeatedly cycling it between 3.6 and 3.8 V, provided temperature is controlled. [Kalaga et al., 2018][1][Battery University, 2025][2][Asiri et al., 2025][3][Asiri et al., 2025 (P2D model)][4]
+
+( AI generated)
 
 ## Key degradation mechanisms
 
