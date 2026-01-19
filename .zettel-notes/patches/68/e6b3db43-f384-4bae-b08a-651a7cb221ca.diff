@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -37,1 +37,1 @@
+-- [Reduce battery voltage](battery_voltage.md)
++- [Reduce battery voltage](https://github.com/bryansplace/PostmarketOS-limit-battery-voltage/blob/main/README.md)

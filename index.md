@@ -34,7 +34,7 @@ I go on to install and use:
 - [Docker](docker.md)
 - [Firewall](firewall.md)
 - [Home Assistant](hass.md)
-- [Reduce battery voltage](battery_voltage.md)
+- [Reduce battery voltage](https://github.com/bryansplace/PostmarketOS-limit-battery-voltage/blob/main/README.md)
 - [Bluetooth](bluetooth.md)
 - Jupyter
 - Connect to NAS storage
