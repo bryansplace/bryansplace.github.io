@@ -21,7 +21,7 @@ I have two Xiaomi A1 devices that have been running for over three years with no
 The aim of this site is to supplement the excellent PostmarketOS (pmos) documentation which contains a tremendous amount of information by focusing on my real world experiences relating to one model.
 
 The key steps are
-- [Install Pmbootstrap on PC](install_pmbootstrap.md)
+- [Install Pmbootstrap on PC](#_install_pmbootstrap)
 - [Connect the phone](connect_phone.md)
 - [PostmarketOS; initialise options](pmbootstrap_init.md)
 - [PostmarketOS; install options](pmbootstrap_install.md)
@@ -39,5 +39,20 @@ I go on to install and use:
 - Jupyter
 - Connect to NAS storage
 - [Tailscale](tailscale.md)
+
+## Install PMbootstrap
+
+You will need a linux based system. 
+
+The official installation instructions can be found [here](https://wiki.postmarketos.org/wiki/Installing_pmbootstrap)
+
+Unfortunately, there are are altrrnatives, which as a beginner, confused me more than it should.
+
+I personally found [using pip](https://wiki.postmarketos.org/wiki/Pmbootstrap/Installation#Using_pip) simplest.
+
+
+Whatever, in the end...To test that pmbootstrap is installed correctly, run:
+
+    pmbootstrap --version
 
 
