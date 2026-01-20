@@ -1,0 +1,14 @@
+--- old
++++ new
+@@ -67,1 +67,1 @@
+-USB debugging. %HEADING%usb-debugging-%HEADING%
++#### USB debugging.
+@@ -76,1 +76,1 @@
+-USB cable %HEADING%usb-cable%HEADING%
++#### USB cable 
+@@ -80,1 +80,1 @@
+-Flash mode %HEADING%flash-mode%HEADING%
++#### Flash mode
+@@ -82,1 +82,1 @@
+-Thr phone needs to be put into flash mode.
++Thr phone needs to be put into 'flash mode'.
