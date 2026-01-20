@@ -23,7 +23,7 @@ The aim of this site is to supplement the excellent PostmarketOS (pmos) document
 The key steps are
 - [Install Pmbootstrap on PC](#install-pmbootstrap)
 - [Connect the phone](connect_phone.md)
-- [PostmarketOS; initialise options](pmbootstrap_init.md)
+- [PostmarketOS; initialise options](#initialisation)
 - [PostmarketOS; install options](pmbootstrap_install.md)
 - [Flash new system](pmbootstrap_flasher.md)
 - [Setup your network WIFI](setup_wifi.md)
@@ -39,7 +39,7 @@ I go on to install and use:
 - Connect to NAS storage
 - [Tailscale](tailscale.md)
 
-## Install PMbootstrap
+### Install PMbootstrap
 
 You will need a linux based system. 
 
@@ -52,5 +52,32 @@ To be honest, I found installing PMbootstrap to be the most difficult part of th
 Whatever, in the end...To test that pmbootstrap is installed correctly, run:
 
     pmbootstrap --version
+    
+    
+### Initialisation
+
+The initialisation sets up PMbootstrap with you phone make and model together with any options, eg additional software.
+
+Your device might have a pre-built image available. There is one for my Xiaomi Tissot, but I've never used it.
+
+I want just a basic alpine server with the minimum of stuff installed. So we use the route using [Pmbootstrap init](https://wiki.postmarketos.org/wiki/Installation/Using_pmbootstrap#Initializing_pmbootstrap)   to tell pmbootstrap what device we have and what options we want.
+
+On your PC, run 
+```$pmbootstrap init```
+ 
+
+This will give a series of options.
+Accept the defaults... 
+Except:
+- Channel: Edge
+- Vendor:  qcom 
+- Device codename: msm8953
+- User Interface: none 
+ (As I just want a server, I don't want any user interface. Connection is through SSH.)
+- Additional packages : nano,networkmanager,networkmanager-wifi,networkmanager-cli,networkmanager-tui,wpa_supplicant
+(Surprisingly, the qcom package doesn't have standard network manager. So its best to add them in here.)
+
+You'll be asked for a username . This will later be needed for login to the phone device (  thru SSH)
+
 
 
