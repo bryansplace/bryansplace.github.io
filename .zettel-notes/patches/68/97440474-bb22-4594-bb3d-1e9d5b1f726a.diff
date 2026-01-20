@@ -1,0 +1,13 @@
+--- old
++++ new
+@@ -46,1 +46,1 @@
+-The official installation instructions can be found [here](https://wiki.postmarketos.org/wiki/Installing_pmbootstrap)
++The official installation instructions can be found [here](https://wiki.postmarketos.org/wiki/Installing_pmbootstrap). 
+@@ -48,1 +48,1 @@
+-Unfortunately, there are are altrrnatives, which as a beginner, confused me more than it should.
++Unfortunately, there are are alternatives, which as a beginner, confused me more than it should. I personally found [using pip](https://wiki.postmarketos.org/wiki/Pmbootstrap/Installation#Using_pip) simplest.
+@@ -50,1 +50,1 @@
+-I personally found [using pip](https://wiki.postmarketos.org/wiki/Pmbootstrap/Installation#Using_pip) simplest.
++To be honest, I found installing PMbootstrap to be the most difficult part of the whole process; but it is worth it as it really makes installing linux on you old phone easy.
+@@ -52,1 +52,0 @@
+-

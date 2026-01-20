@@ -43,12 +43,11 @@ I go on to install and use:
 
 You will need a linux based system. 
 
-The official installation instructions can be found [here](https://wiki.postmarketos.org/wiki/Installing_pmbootstrap)
+The official installation instructions can be found [here](https://wiki.postmarketos.org/wiki/Installing_pmbootstrap). 
 
-Unfortunately, there are are altrrnatives, which as a beginner, confused me more than it should.
+Unfortunately, there are are alternatives, which as a beginner, confused me more than it should. I personally found [using pip](https://wiki.postmarketos.org/wiki/Pmbootstrap/Installation#Using_pip) simplest.
 
-I personally found [using pip](https://wiki.postmarketos.org/wiki/Pmbootstrap/Installation#Using_pip) simplest.
-
+To be honest, I found installing PMbootstrap to be the most difficult part of the whole process; but it is worth it as it really makes installing linux on you old phone easy.
 
 Whatever, in the end...To test that pmbootstrap is installed correctly, run:
 
