@@ -30,11 +30,10 @@ The key steps are
 
 This gives you a functioning server.
 I go on to install and use:
-
+- [Reduce battery voltage](https://github.com/bryansplace/PostmarketOS-limit-battery-voltage/blob/main/README.md)
 - [Docker](docker.md)
 - [Firewall](firewall.md)
 - [Home Assistant](hass.md)
-- [Reduce battery voltage](https://github.com/bryansplace/PostmarketOS-limit-battery-voltage/blob/main/README.md)
 - [Bluetooth](bluetooth.md)
 - Jupyter
 - Connect to NAS storage

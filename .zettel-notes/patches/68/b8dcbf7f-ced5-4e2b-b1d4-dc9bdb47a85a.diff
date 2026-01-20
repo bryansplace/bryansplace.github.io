@@ -1,0 +1,7 @@
+--- old
++++ new
+@@ -33,1 +33,1 @@
+-
++- [Reduce battery voltage](https://github.com/bryansplace/PostmarketOS-limit-battery-voltage/blob/main/README.md)
+@@ -37,1 +37,0 @@
+-- [Reduce battery voltage](https://github.com/bryansplace/PostmarketOS-limit-battery-voltage/blob/main/README.md)
