@@ -26,10 +26,10 @@ The key steps are
 - [PostmarketOS; initialise options](#initialisation)
 - [PostmarketOS; install options](#install)
 - [Flash new system](#flash-to-phone)
-- [Setup your network WIFI](setup_wifi.md)
+- [Setup your network WIFI](#setup-wifi)
 
 This gives you a functioning server.
-I go on to install and use:
+I go on to:
 - [Reduce battery voltage](https://github.com/bryansplace/PostmarketOS-limit-battery-voltage/blob/main/README.md)
 - [Docker](docker.md)
 - [Firewall](firewall.md)
@@ -157,6 +157,19 @@ You will be asked for your password.
 
 Hopefully, you now have control of the phone from your computer.
 
+
+###  Setup WIFI
+
+To automatically start network manager and wifi, set the date/time, run
+```
+    sudo rc-update add networkmanager
+    sudo rc-update add wpa_supplicant
+    sudo setup-ntp busybox
+    sudo nmtui
+ ```   
+The nmtui interface gives a 'somewhat' intuitive screen where you can activate the WIFI. (Use a google search for 'nmtui' for instructions if needed).
+
+You'll probably want to set up a static IP address for the phone on your router or preferably using nmtui. A static address can be set using nmtui explained [here](https://www.tecmint.com/nmtui-configure-network-connection/)
 
 
 

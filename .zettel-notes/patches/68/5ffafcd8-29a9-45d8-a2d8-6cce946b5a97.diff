@@ -1,0 +1,25 @@
+--- old
++++ new
+@@ -29,1 +29,1 @@
+-- [Setup your network WIFI](setup_wifi.md)
++- [Setup your network WIFI](#setup-wifi)
+@@ -32,1 +32,1 @@
+-I go on to install and use:
++I go on to:
+@@ -161,0 +161,1 @@
++###  Setup WIFI
+@@ -162,0 +163,8 @@
++To automatically start network manager and wifi, set the date/time, run
++```
++    sudo rc-update add networkmanager
++    sudo rc-update add wpa_supplicant
++    sudo setup-ntp busybox
++    sudo nmtui
++ ```   
++The nmtui interface gives a 'somewhat' intuitive screen where you can activate the WIFI. (Use a google search for 'nmtui' for instructions if needed).
+@@ -163,0 +172,1 @@
++You'll probably want to set up a static IP address for the phone on your router or preferably using nmtui. A static address can be set using nmtui explained [here](https://www.tecmint.com/nmtui-configure-network-connection/)
+@@ -166,0 +176,3 @@
++
++
++
