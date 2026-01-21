@@ -24,8 +24,8 @@ The key steps are
 - [Install Pmbootstrap on PC](#install-pmbootstrap)
 - [Connect the phone](#connect-phone-to-pc)
 - [PostmarketOS; initialise options](#initialisation)
-- [PostmarketOS; install options](pmbootstrap_install.md)
-- [Flash new system](pmbootstrap_flasher.md)
+- [PostmarketOS; install options](#install)
+- [Flash new system](#flash-to-phone)
 - [Setup your network WIFI](setup_wifi.md)
 
 This gives you a functioning server.

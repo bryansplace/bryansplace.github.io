@@ -1,0 +1,7 @@
+--- old
++++ new
+@@ -27,2 +27,2 @@
+-- [PostmarketOS; install options](pmbootstrap_install.md)
+-- [Flash new system](pmbootstrap_flasher.md)
++- [PostmarketOS; install options](#install)
++- [Flash new system](#flash-to-phone)
