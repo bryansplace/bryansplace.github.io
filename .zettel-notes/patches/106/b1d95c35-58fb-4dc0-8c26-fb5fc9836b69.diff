@@ -1,0 +1,30 @@
+--- old
++++ new
+@@ -5,0 +5,1 @@
++Install Tailscale (on Alpine Linux)
+@@ -6,1 +7,12 @@
+-sudo apk add tailscale
++# apk add tailscale
++```
++Use OpenRC to enable and start the service
++```
++# rc-update add tailscale
++# rc-service tailscale start
++```
++Authenticate and connect your machine to your Tailscale network
++```
++tailscale up
++```
++Connected! 
+@@ -8,2 +20,3 @@
+-rc-update add tailscale
+-rc-service tailscale start
++You can find theTailscale IPv4 address by running:
++```
++tailscale ip -4
+@@ -11,3 +24,0 @@
+-sudo reboot
+-
+-sudo tailscale up
+@@ -15,0 +25,1 @@
++

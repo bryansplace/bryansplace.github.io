@@ -2,13 +2,23 @@
 
 Install Tailscale directly ( not docker)
 
+Install Tailscale (on Alpine Linux)
 ```
-sudo apk add tailscale
+# apk add tailscale
+```
+Use OpenRC to enable and start the service
+```
+# rc-update add tailscale
+# rc-service tailscale start
+```
+Authenticate and connect your machine to your Tailscale network
+```
+tailscale up
+```
+Connected! 
 
-rc-update add tailscale
-rc-service tailscale start
+You can find theTailscale IPv4 address by running:
+```
+tailscale ip -4
 
-sudo reboot
-
-sudo tailscale up
 ```
