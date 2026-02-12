@@ -1,6 +1,8 @@
 ### Firewall
 
-PostmarketOS now includes a nftables firewall. 
+PostmarketOS now uses a nftables firewall. 
+
+*** This is work in progress ***
 
 For testing, 
 ```

@@ -1,0 +1,8 @@
+--- old
++++ new
+@@ -3,1 +3,1 @@
+-PostmarketOS now includes a nftables firewall. 
++PostmarketOS now uses a nftables firewall. 
+@@ -5,0 +5,2 @@
++*** This is work in progress ***
++
