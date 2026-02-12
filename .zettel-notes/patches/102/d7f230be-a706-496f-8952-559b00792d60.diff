@@ -1,0 +1,14 @@
+--- old
++++ new
+@@ -7,0 +7,11 @@
++The default rules are explained [here](https://wiki.postmarketos.org/wiki/Firewall).
++
++Installed packages can add, and even, modify rules. eg Tailscale will modify rules to try to ensure its rules have priority.
++
++Also, Docker uses iptables, not nftables.
++docker info | grep "Firewall"
++ Firewall Backend: iptables
++ 
++ 
++  
++
