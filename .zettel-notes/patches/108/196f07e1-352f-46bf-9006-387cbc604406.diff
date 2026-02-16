@@ -1,0 +1,14 @@
+--- old
++++ new
+@@ -16,1 +16,1 @@
+-Listing the files in these directories gives a somewhat bewildering list. What everything means is documented in https://docs.kernel.org/power/power_supply_class.html, but maunfacturers have not strictly followed this.
++Listing the files in these directories gives a somewhat bewildering list. What everything means is documented in https://docs.kernel.org/power/power_supply_class.html, but manufacturers have not strictly followed this.
+@@ -20,1 +20,1 @@
+-```/sys/class/power_supply/qcom-battery/capacity``` which reports the current % charge capacity
++```/sys/class/power_supply/qcom-battery/capacity``` which reports the current  charge, eg 80% capacity.
+@@ -22,0 +22,2 @@
++```/sys/class/power_supply/qcom-battery/constant_charge_current_max``` which gives the maximum charge current the battery should take.
++
+@@ -33,1 +35,1 @@
+-# /usr/local/bin/battery-charge-limiter.sh
++#/usr/local/bin/battery-charge-limiter.sh

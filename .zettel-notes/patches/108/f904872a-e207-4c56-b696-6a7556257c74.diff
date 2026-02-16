@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -33,1 +33,1 @@
+-# /usr/local/bin/battery-charge-limiter.sh
++#/usr/local/bin/battery-charge-limiter.sh

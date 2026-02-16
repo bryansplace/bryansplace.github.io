@@ -1,0 +1,37 @@
+--- old
++++ new
+@@ -16,1 +16,1 @@
+-Listing the files in these directories gives a somewhat bewildering list. What everything means is documented in https://docs.kernel.org/power/power_supply_class.html, but maunfacturers have not strictly followed this.
++Listing the files in these directories gives a somewhat bewildering list. What everything means is documented in https://docs.kernel.org/power/power_supply_class.html, but manufacturers have not strictly followed this.
+@@ -20,1 +20,1 @@
+-```/sys/class/power_supply/qcom-battery/capacity``` which reports the current % charge capacity
++```/sys/class/power_supply/qcom-battery/capacity``` which reports the current  charge, eg 80% capacity.
+@@ -22,1 +22,1 @@
+-```/sys/class/power_supply/qcom-smbchg-usb/input_current_limit``` which is read/write and reports or sets the  current limit the charger can send to the battery. 
++```/sys/class/power_supply/qcom-battery/constant_charge_current_max``` which gives the maximum charge current the battery should take. Make a note of this value 
+@@ -24,0 +24,1 @@
++```/sys/class/power_supply/qcom-smbchg-usb/input_current_limit``` which is read/write and reports/sets the  current limit the charger can send to the battery. It is this value that is reduced to a 'minimal rate' when the desired charge level is reached. 
+@@ -25,1 +26,0 @@
+-cd  /sys/class/power_supply/qcom-battery 
+@@ -29,0 +29,1 @@
++
+@@ -30,1 +31,3 @@
+-sudo nano /usr/local/bin/battery-charge-limiter.sh
++This script reduces current to a 'trickle' when charge is over max requried and sets back to normal when when charge is low.
++
++```sudo nano /usr/local/bin/battery-charge-limiter.sh```
+@@ -33,1 +36,1 @@
+-# /usr/local/bin/battery-charge-limiter.sh
++#/usr/local/bin/battery-charge-limiter.sh
+@@ -36,2 +39,2 @@
+-MIN_CAPACITY=55  # Resume charging below this
+-CHECK_INTERVAL=60
++MIN_CAPACITY=55  # Resume charging
++CHECK_INTERVAL=60 # Seconds
+@@ -42,2 +45,2 @@
+-NORMAL_CURRENT=2000000  # Adjust based on your device
+-TRICKLE_CURRENT=100000
++NORMAL_CURRENT=1000000  # Adjust based on maximum of your device
++TRICKLE_CURRENT=10000
+@@ -61,0 +64,1 @@
++
