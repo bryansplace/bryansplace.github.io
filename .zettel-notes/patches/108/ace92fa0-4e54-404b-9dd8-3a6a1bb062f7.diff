@@ -1,0 +1,102 @@
+--- old
++++ new
+@@ -7,1 +7,1 @@
+-The script simply limits the input current to a trickle charge if the battery charge is high, switching back to normal charge when low.
++The script given simply limits the input current to a low charge if the battery charge is high, switching back to normal charge when necessary.
+@@ -11,1 +11,1 @@
+-###
++### Explaination
+@@ -26,0 +26,1 @@
++### Step 1: Create the main script
+@@ -27,5 +28,0 @@
+-
+-
+-
+-Step 1: Create the main script
+-
+@@ -66,1 +62,1 @@
+-Step 2: Create the OpenRC init script
++### Step 2: Create the OpenRC init script
+@@ -97,1 +93,1 @@
+-Step 3: Enable and start the service
++### Step 3: Enable and start the service
+@@ -105,5 +101,2 @@
+-# Check status
+-sudo rc-service battery-charge-limiter status
+-Step 4: Verify it's working
+-# Check if the process is running
+-ps aux | grep battery-charge-limiter
++Check its status is running
++```sudo rc-service battery-charge-limiter status```
+@@ -111,2 +104,3 @@
+-# Check the log (if using syslog)
+-tail -f /var/log/messages
++### Step 4: Verify it's working
++Check if the process is running
++```ps aux | grep battery-charge-limiter```
+@@ -114,6 +108,2 @@
+-# Monitor the current limit being applied
+-watch -n 5 'cat /sys/class/power_supply/qcom-battery/capacity; cat /sys/class/power_supply/qcom-smbchg-usb/input_current_limit'
+-Optional: Add Logging
+-If you want better logging, modify the script:
+-#!/bin/sh
+-# /usr/local/bin/battery-charge-limiter.sh
++Monitor the current limit being applied
++```watch -n 5 'cat /sys/class/power_supply/qcom-battery/capacity; cat /sys/class/power_supply/qcom-smbchg-usb/input_current_limit'```
+@@ -121,3 +111,3 @@
+-MAX_CAPACITY=60
+-MIN_CAPACITY=55
+-CHECK_INTERVAL=60
++### Management Commands
++Start service
++```sudo rc-service battery-charge-limiter start```
+@@ -125,2 +115,2 @@
+-CURRENT_LIMIT_PATH="/sys/class/power_supply/qcom-smbchg-usb/input_current_limit"
+-CAPACITY_PATH="/sys/class/power_supply/qcom-battery/capacity"
++Stop service
++```sudo rc-service battery-charge-limiter stop```
+@@ -128,2 +118,2 @@
+-NORMAL_CURRENT=2000000
+-TRICKLE_CURRENT=100000
++Restart service
++```sudo rc-service battery-charge-limiter restart```
+@@ -131,1 +121,2 @@
+-LOG_FILE="/var/log/battery-charge-limiter.log"
++Remove from autostart
++```sudo rc-update del battery-charge-limiter default```
+@@ -133,3 +124,0 @@
+-log_msg() {
+-    echo "$(date '+%Y-%m-%d %H:%M:%S'): $1" >> "$LOG_FILE"
+-}
+@@ -137,31 +125,0 @@
+-log_msg "Battery charge limiter started"
+-
+-while true; do
+-    CAPACITY=$(cat "$CAPACITY_PATH")
+-    
+-    if [ "$CAPACITY" -ge "$MAX_CAPACITY" ]; then
+-        echo "$TRICKLE_CURRENT" > "$CURRENT_LIMIT_PATH"
+-        log_msg "Battery at ${CAPACITY}% - limiting charge"
+-    elif [ "$CAPACITY" -le "$MIN_CAPACITY" ]; then
+-        echo "$NORMAL_CURRENT" > "$CURRENT_LIMIT_PATH"
+-        log_msg "Battery at ${CAPACITY}% - normal charging"
+-    fi
+-    
+-    sleep $CHECK_INTERVAL
+-done
+-Management Commands
+-# Start service
+-sudo rc-service battery-charge-limiter start
+-
+-# Stop service
+-sudo rc-service battery-charge-limiter stop
+-
+-# Restart service
+-sudo rc-service battery-charge-limiter restart
+-
+-# Remove from autostart
+-sudo rc-update del battery-charge-limiter default
+-
+-# View logs (if you added logging)
+-tail -f /var/log/battery-charge-limiter.log
+-Fine-tuning
