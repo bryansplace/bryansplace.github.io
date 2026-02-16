@@ -65,7 +65,7 @@ sudo chmod +x /usr/local/bin/battery-charge-limiter.sh
 
 Step 2: Create the OpenRC init script
 
-To make the script run in the background as a service and start at boot, assuming OpenRC is used
+Assuming OpenRC is used
 ```sudo nano /etc/init.d/battery-charge-limiter```
 
 ```
@@ -92,8 +92,10 @@ start_pre() {
 }
 ```
 sudo chmod +x /etc/init.d/battery-charge-limiter
+
 Step 3: Enable and start the service
-# Add to default runlevel (starts at boot)
+
+Add it to default runlevel (starts at boot)
 sudo rc-update add battery-charge-limiter default
 
 # Start the service now

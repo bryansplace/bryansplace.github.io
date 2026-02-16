@@ -1,0 +1,11 @@
+--- old
++++ new
+@@ -68,1 +68,1 @@
+-To make the script run in the background as a service and start at boot, assuming OpenRC is used
++Assuming OpenRC is used
+@@ -95,0 +95,1 @@
++
+@@ -96,1 +97,2 @@
+-# Add to default runlevel (starts at boot)
++
++Add it to default runlevel (starts at boot)
