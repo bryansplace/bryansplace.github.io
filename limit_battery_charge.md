@@ -67,9 +67,10 @@ Step 2: Create the OpenRC init script
 
 To make the script run in the background as a service and start at boot, assuming OpenRC is used
 ```sudo nano /etc/init.d/battery-charge-limiter```
+
 ```
 #!/sbin/openrc-run
-# /etc/init.d/battery-charge-limiter
+#/etc/init.d/battery-charge-limiter
 
 name="battery-charge-limiter"
 description="Battery Charge Limiter Service"

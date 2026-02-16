@@ -1,0 +1,7 @@
+--- old
++++ new
+@@ -70,0 +70,1 @@
++
+@@ -72,1 +73,1 @@
+-# /etc/init.d/battery-charge-limiter
++#/etc/init.d/battery-charge-limiter
