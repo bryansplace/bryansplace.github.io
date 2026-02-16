@@ -1,0 +1,16 @@
+--- old
++++ new
+@@ -94,1 +94,2 @@
+-sudo chmod +x /etc/init.d/battery-charge-limiter
++Make it executable
++```sudo chmod +x /etc/init.d/battery-charge-limiter```
+@@ -99,1 +100,1 @@
+-sudo rc-update add battery-charge-limiter default
++```sudo rc-update add battery-charge-limiter default```
+@@ -101,3 +102,3 @@
+-# Start the service now
+-sudo rc-service battery-charge-limiter start
+-
++Start the service now
++```sudo rc-service battery-charge-limiter start
++```

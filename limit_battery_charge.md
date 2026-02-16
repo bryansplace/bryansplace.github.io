@@ -91,16 +91,17 @@ start_pre() {
     fi
 }
 ```
-sudo chmod +x /etc/init.d/battery-charge-limiter
+Make it executable
+```sudo chmod +x /etc/init.d/battery-charge-limiter```
 
 Step 3: Enable and start the service
 
 Add it to default runlevel (starts at boot)
-sudo rc-update add battery-charge-limiter default
+```sudo rc-update add battery-charge-limiter default```
 
-# Start the service now
-sudo rc-service battery-charge-limiter start
-
+Start the service now
+```sudo rc-service battery-charge-limiter start
+```
 # Check status
 sudo rc-service battery-charge-limiter status
 Step 4: Verify it's working
