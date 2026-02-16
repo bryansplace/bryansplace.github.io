@@ -1,0 +1,12 @@
+--- old
++++ new
+@@ -13,0 +13,2 @@
++The parameters that govern and report the battery and charging are to be found in ```/sys/class/power_supply```. 
++There are two sub-directories; one for the battery and one for the charger, in my case qcom-battery   and qcom-smbchg-usb.
+@@ -14,0 +16,1 @@
++Listing the files in these directories gives a somewhat bewildering list.
+@@ -15,0 +18,4 @@
++cd  /sys/class/power_supply/qcom-battery 
++
++
++

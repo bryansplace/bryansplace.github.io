@@ -1,0 +1,13 @@
+--- old
++++ new
+@@ -15,0 +15,4 @@
++ sudo nano  /etc/conf.d/docker
++ add DOCKER_OPTS="--firewall-backend=nftables"
++ restart docker
++ rc-service docker restart
+@@ -16,0 +20,5 @@
++  docker info | grep "Firewall"         
++  Firewall Backend: nftables
++ 
++ 
++ 

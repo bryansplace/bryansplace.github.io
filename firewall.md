@@ -12,6 +12,15 @@ Also, Docker uses iptables, not nftables.
 docker info | grep "Firewall"
  Firewall Backend: iptables
  
+ sudo nano  /etc/conf.d/docker
+ add DOCKER_OPTS="--firewall-backend=nftables"
+ restart docker
+ rc-service docker restart
+ 
+  docker info | grep "Firewall"         
+  Firewall Backend: nftables
+ 
+ 
  
   
 
