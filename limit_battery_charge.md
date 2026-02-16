@@ -17,7 +17,9 @@ Listing the files in these directories gives a somewhat bewildering list. What e
 
 For the qcom-msm8953, the important items are
 
-```/sys/class/power_supply/qcom-battery/capacity```
+```/sys/class/power_supply/qcom-battery/capacity``` which reports the current % charge capacity
+
+```/sys/class/power_supply/qcom-smbchg-usb/input_current_limit``` which is read/write and reports or sets the  current limit the charger can send to the battery. 
 
 
 cd  /sys/class/power_supply/qcom-battery 
@@ -26,6 +28,7 @@ cd  /sys/class/power_supply/qcom-battery
 
 Step 1: Create the main script
 sudo nano /usr/local/bin/battery-charge-limiter.sh
+```
 #!/bin/sh
 # /usr/local/bin/battery-charge-limiter.sh
 
@@ -50,7 +53,10 @@ while true; do
     
     sleep $CHECK_INTERVAL
 done
+```
+```
 sudo chmod +x /usr/local/bin/battery-charge-limiter.sh
+```
 Step 2: Create the OpenRC init script
 sudo nano /etc/init.d/battery-charge-limiter
 #!/sbin/openrc-run

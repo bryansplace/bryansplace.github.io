@@ -1,0 +1,16 @@
+--- old
++++ new
+@@ -20,1 +20,1 @@
+-```/sys/class/power_supply/qcom-battery/capacity```
++```/sys/class/power_supply/qcom-battery/capacity``` which reports the current % charge capacity
+@@ -22,0 +22,1 @@
++```/sys/class/power_supply/qcom-smbchg-usb/input_current_limit``` which is read/write and reports or sets the  current limit the charger can send to the battery. 
+@@ -23,0 +24,1 @@
++
+@@ -29,0 +31,1 @@
++```
+@@ -53,0 +56,2 @@
++```
++```
+@@ -54,0 +59,1 @@
++```
