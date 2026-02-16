@@ -13,7 +13,12 @@ My device is a  Xiaom A1 tissot ( a generic qcom-msm8953). Details for other dev
 The parameters that govern and report the battery and charging are to be found in ```/sys/class/power_supply```. 
 There are two sub-directories; one for the battery and one for the charger, in my case qcom-battery   and qcom-smbchg-usb.
 
-Listing the files in these directories gives a somewhat bewildering list. 
+Listing the files in these directories gives a somewhat bewildering list. What everything means is documented in https://docs.kernel.org/power/power_supply_class.html, but maunfacturers have not strictly followed this.
+
+For the qcom-msm8953, the important items are
+
+```/sys/class/power_supply/qcom-battery/capacity```
+
 
 cd  /sys/class/power_supply/qcom-battery 
 

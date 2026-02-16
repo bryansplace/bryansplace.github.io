@@ -1,0 +1,11 @@
+--- old
++++ new
+@@ -16,1 +16,1 @@
+-Listing the files in these directories gives a somewhat bewildering list. 
++Listing the files in these directories gives a somewhat bewildering list. What everything means is documented in https://docs.kernel.org/power/power_supply_class.html, but maunfacturers have not strictly followed this.
+@@ -18,0 +18,5 @@
++For the qcom-msm8953, the important items are
++
++```/sys/class/power_supply/qcom-battery/capacity```
++
++
