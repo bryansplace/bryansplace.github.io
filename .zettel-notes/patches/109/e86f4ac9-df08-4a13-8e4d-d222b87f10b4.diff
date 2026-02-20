@@ -1,0 +1,17 @@
+--- old
++++ new
+@@ -5,1 +5,1 @@
+-/sys/class/power_supply/qcom-smbchg-usb/status
++cat /sys/class/power_supply/qcom-smbchg-usb/status
+@@ -7,1 +7,0 @@
+-/sys/class/power_supply/qcom-battery/present
+@@ -9,1 +8,8 @@
+-/sys/class/power_supply/qcom-smbchg-usb/online
++To disconnect
++echo 0 | sudo tee /sys/class/power_
++supply/qcom-smbchg-usb/online
++
++To reconnect
++echo 1 | sudo tee /sys/class/power_
++supply/qcom-smbchg-usb/online
++
