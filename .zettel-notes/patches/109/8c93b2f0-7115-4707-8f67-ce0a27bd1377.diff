@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -8,0 +8,2 @@
++
++/sys/class/power_supply/qcom-smbchg-usb/online
