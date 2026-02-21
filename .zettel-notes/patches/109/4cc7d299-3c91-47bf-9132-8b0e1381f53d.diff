@@ -1,0 +1,6 @@
+--- old
++++ new
+@@ -9,2 +9,1 @@
+-echo 0 | sudo tee /sys/class/power_
+-supply/qcom-smbchg-usb/online
++echo 0 | sudo tee /sys/class/power_supply/qcom-smbchg-usb/online
