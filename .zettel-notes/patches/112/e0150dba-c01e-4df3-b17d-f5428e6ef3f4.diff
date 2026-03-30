@@ -1,0 +1,10 @@
+--- old
++++ new
+@@ -4,1 +4,6 @@
+-publish
++published: false
++layout: post
++
++---
++
++# Testing
