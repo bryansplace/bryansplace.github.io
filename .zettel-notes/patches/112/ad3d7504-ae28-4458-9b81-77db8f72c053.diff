@@ -1,0 +1,10 @@
+--- old
++++ new
+@@ -2,1 +2,1 @@
+-title: xxxxxxx
++title: Blog post test
+@@ -4,1 +4,1 @@
+-filename: "test.md"
++published: false
+@@ -7,1 +7,0 @@
+-
