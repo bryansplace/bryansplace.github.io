@@ -6,4 +6,7 @@ layout: post
 
 ---
 
-##Tailscale
+## Tailscale
+
+Tailscale [installation]( https://tailscale.com/docs/install/start) is straightforward
+
