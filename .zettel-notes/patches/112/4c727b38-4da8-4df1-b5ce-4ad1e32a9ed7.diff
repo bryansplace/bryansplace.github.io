@@ -1,0 +1,10 @@
+--- old
++++ new
+@@ -2,2 +2,2 @@
+-title: Blog post test
+-date: 2026-03-30
++title: Tailscale
++date: 2026-04-30
+@@ -9,1 +9,1 @@
+-# Testing
++##Tailscale
