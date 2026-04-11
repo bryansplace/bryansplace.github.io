@@ -8,5 +8,5 @@ layout: post
 
 ## Tailscale
 
-Tailscale [installation]( https://tailscale.com/docs/install/start) is straightforward
+Tailscale [installation](https://tailscale.com/docs/install/start) is straightforward
 
