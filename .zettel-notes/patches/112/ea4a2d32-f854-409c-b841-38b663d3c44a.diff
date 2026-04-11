@@ -1,0 +1,8 @@
+--- old
++++ new
+@@ -25,1 +25,1 @@
+-tailscale up
++```tailscale up```
+@@ -27,1 +27,1 @@
+-tailscale ip -4
++```tailscale ip -4```
