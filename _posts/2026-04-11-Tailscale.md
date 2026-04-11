@@ -21,8 +21,9 @@ Installation steps:
 ```doas rc-update add tailscale```
 ```doas rc-service tailscale start```
 
-3) Authenticate and connect your machine to your Tailscale network
+3) Connect your machine to your Tailscale network
 ```tailscale up```
+Authenticate using the provided internet address
 You’re connected! You can find your Tailscale IPv4 address by running:
 ```tailscale ip -4```
 

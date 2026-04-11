@@ -1,0 +1,7 @@
+--- old
++++ new
+@@ -24,1 +24,1 @@
+-3) Authenticate and connect your machine to your Tailscale network
++3) Connect your machine to your Tailscale network
+@@ -26,0 +26,1 @@
++Authenticate using the provided internet address
