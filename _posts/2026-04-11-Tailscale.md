@@ -8,9 +8,9 @@ layout: post
 
 ## Tailscale
 
-Tailscale [installation](https://tailscale.com/docs/install/start) is straightforward but there are no alpine linux specific instructions
+Tailscale [installation](https://tailscale.com/docs/install/start) is straightforward but there are no alpine linux specific instructions.
 
-Alpine Linux has a tailscale package: https://pkgs.alpinelinux.org/packages?name=tailscale
+Alpine Linux has a tailscale package.
 
 Installation steps:
 
