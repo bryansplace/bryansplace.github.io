@@ -1,0 +1,13 @@
+--- old
++++ new
+@@ -18,1 +18,1 @@
+-```# apk add tailscale```
++```doas apk add tailscale```
+@@ -21,3 +21,4 @@
+-```rc-update add tailscale
+-rc-service tailscale start```
+-Authenticate and connect your machine to your Tailscale network
++```doas rc-update add tailscale```
++```doas rc-service tailscale start```
++
++3) Authenticate and connect your machine to your Tailscale network

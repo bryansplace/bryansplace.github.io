@@ -15,12 +15,13 @@ Alpine Linux has a tailscale package: https://pkgs.alpinelinux.org/packages?name
 Installation steps:
 
 1) Install Tailscale on Alpine Linux
-```# apk add tailscale```
+```doas apk add tailscale```
 
 2) Use OpenRC to enable and start the service
-```rc-update add tailscale
-rc-service tailscale start```
-Authenticate and connect your machine to your Tailscale network
+```doas rc-update add tailscale```
+```doas rc-service tailscale start```
+
+3) Authenticate and connect your machine to your Tailscale network
 tailscale up
 You’re connected! You can find your Tailscale IPv4 address by running:
 tailscale ip -4
