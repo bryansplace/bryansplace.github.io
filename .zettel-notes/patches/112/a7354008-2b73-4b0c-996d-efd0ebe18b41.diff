@@ -1,0 +1,10 @@
+--- old
++++ new
+@@ -4,1 +4,6 @@
+-published: f
++published: false
++layout: post
++
++---
++
++##Tailscale
