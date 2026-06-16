@@ -1,9 +1,9 @@
 ### Introduction
-Immich is a popular selfhosted replacement for Goolge photos. 
+Immich is a popular selfhosted replacement for Google photos. Casting to Google chromcast devices is a hassle as the required HTTPS connection requires setting up certificates.
 
 Immich kiosk provides  highly configurable slideshows for displaying the Immich photos on browsers and devices.
 
-This guide shows how to use CATT ( Cast All The Things) to chromecast Immich Kiosk.
+This guide shows how  to chromecast Immich Kiosk to a local device.use CATT ( Cast All The Things) to 
 
 ### CATT
 
