@@ -1,0 +1,5 @@
+--- old
++++ new
+@@ -4,1 +4,1 @@
+-Casting to Google chromcast devices is possible (https://docs.immich.app/features/casting) hassle as the required HTTPS connection requires setting up certificates.
++Casting to [Google chromecast devices]  (https://docs.immich.app/features/casting) is possible hassle as the required HTTPS connection requires setting up certificates.
