@@ -1,0 +1,8 @@
+--- old
++++ new
+@@ -4,1 +4,1 @@
+-Casting to [Google chromecast devices](https://docs.immich.app/features/casting) is possible hassle as the required HTTPS connection requires setting up certificates.
++Casting to [Google chromecast devices](https://docs.immich.app/features/casting) is possible  but not simple as the required HTTPS connection requires setting up certificates and DNS stuff.
+@@ -8,1 +8,1 @@
+-This guide shows how  to chromecast Immich Kiosk to a local device.use CATT ( Cast All The Things) to 
++This guide shows how  to chromecast  to a local device.use CATT ( Cast All The Things) to Immich Kiosk
