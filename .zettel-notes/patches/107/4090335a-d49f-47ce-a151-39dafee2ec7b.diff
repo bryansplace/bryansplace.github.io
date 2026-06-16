@@ -1,0 +1,14 @@
+--- old
++++ new
+@@ -18,1 +18,1 @@
+-I'll presume you are fairly familar with Docker.
++### Prerequisites
+@@ -20,0 +20,4 @@
++a) Immich kiosk 
++b ) Host system with Docker installed
++As your running Immich, I'll presume you are fairly familar with Docker.
++
+@@ -27,1 +31,2 @@
+- ### Build the Image
++### Build the Image
++

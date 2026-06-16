@@ -15,7 +15,11 @@ Cast All The Things allows you to render websites as explained [here](https://gi
 
 Although it can be installed and run 'normally', I prefer to use docker containers to keep my host system 'clean'.
 
-I'll presume you are fairly familar with Docker.
+### Prerequisites
+
+a) Immich kiosk 
+b ) Host system with Docker installed
+As your running Immich, I'll presume you are fairly familar with Docker.
 
 ### Create  Dockerfile
   ```
@@ -24,7 +28,8 @@ RUN pip install --no-cache-dir catt
 ENTRYPOINT ["catt"]
 CMD ["--help"]
  ```
- ### Build the Image
+### Build the Image
+
 ```docker build -t catt . ```
  
  ### Scan for your chromecast devices
