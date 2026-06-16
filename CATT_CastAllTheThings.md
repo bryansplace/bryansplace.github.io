@@ -32,7 +32,7 @@ CMD ["--help"]
 
 ```docker build -t catt . ```
  
- ### Scan for your chromecast devices
+ ### Scan for chromecast devices
   
   Run the catt container using command scan to list the chromecast devices on your LAN. 
   ```docker run --net=host --rm catt scan```
