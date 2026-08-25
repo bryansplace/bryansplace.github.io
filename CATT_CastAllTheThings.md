@@ -1,3 +1,10 @@
+---
+title: Immich Kiosk Cast
+date: 2026-07-03
+
+layout: post
+---
+
 # Chromecasting Immich Kiosk with CATT
 
 ## Introduction
