@@ -26,19 +26,19 @@ minima:
 
 #hide_site_feed_link: true
 
-header_pages:
-  - index.md
-  - blog.md
-  - about.md
+#header_pages:
+#  - index.md
+#  - blog.md
+#  - about.md
 
 
 list_title: Misc posts
 
 
 plugins:
-  - jekyll-toc             
-#  - jekyll-feed           
-#  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-toc                       
+  - jekyll-seo-tag
 #  - jekyll-archives
 
 
