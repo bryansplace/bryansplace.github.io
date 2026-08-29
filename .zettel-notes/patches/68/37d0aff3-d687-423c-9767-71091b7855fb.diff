@@ -1,0 +1,10 @@
+--- old
++++ new
+@@ -5,1 +5,0 @@
+-# Welcome to Bryan's Place
+@@ -9,1 +8,1 @@
+-Welcome to my corner of the web. I like to breathe new life into "obsolete" phones — specifically turning them into functional, low-power homelabs.
++Welcome to my corner of the web.
+@@ -11,0 +10,2 @@
++For over three years now, I have run my homelab server(s) on old phones. By installing Postmarket running Alpine linux    I like to breathe new life into "obsolete" phones — specifically turning them into functional, low-power homelabs.
++

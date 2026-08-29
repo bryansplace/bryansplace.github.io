@@ -1,0 +1,8 @@
+--- old
++++ new
+@@ -10,1 +10,1 @@
+-For over three years now, I have run my homelab server(s) on old phones. By installing Postmarket running Alpine linux    I like to breathe new life into "obsolete" phones — specifically turning them into functional, low-power homelabs.
++For over three years now, I have run my homelab server(s) on old phones. By installing PostmarketOS you get a simple Alpine linux  system which is, importantly for me, able to host docker containers.  
+@@ -12,0 +12,2 @@
++
++

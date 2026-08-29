@@ -1,0 +1,8 @@
+--- old
++++ new
+@@ -10,1 +10,1 @@
+-For over three years now, I have run my homelab server(s) on old phones. By installing Postmarket running Alpine linux    I like to breathe new life into "obsolete" phones — specifically turning them into functional, low-power homelabs.
++For over three years now, I have run my homelab server(s) on old phones. By installing PostmarketOS you get a simple Alpine linux  system which is, importantly for me, able to host docker containers.  
+@@ -12,1 +12,1 @@
+-After looking at loads of alternatives, I homed in on **PostmarketOS**. The big plus for me is its ability to run Docker, and it installs without rooting the phone via its installer, Pmbootstrap. I have two Xiaomi A1 devices that have been running for over three years with no problems.
++**PostmarketOS**  installs without rooting the phone via its installer progran, Pmbootstrap. I have two Xiaomi A1 devices that have been running for over three years with no problems.
