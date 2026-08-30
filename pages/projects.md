@@ -6,7 +6,7 @@ layout: page
 
 # Projects
 
-A running list of things I've built. See [Now](/now/) for what's currently in progress.
+A running list of things I've completed. See [Now](/now/) for what's currently in progress.
 
 ## Active
 
