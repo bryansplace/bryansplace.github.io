@@ -2,14 +2,12 @@
 title: Welcome to Bryan's Place
 ---
 
+This site contains stuff I want to document in case I have to do it again. 
+Hopefully also useful to others.
 
-## Repurposing old smartphones
+For over three years now, I have run my homelab server(s) on old phones (two Xiaomi A1 devices). By installing PostmarketOS you get a simple Alpine linux  system which is, importantly for me, able to host docker containers.  
 
-Welcome to my corner of the web.
-
-For over three years now, I have run my homelab server(s) on old phones. By installing PostmarketOS you get a simple Alpine linux  system which is, importantly for me, able to host docker containers.  
-
-**PostmarketOS**  installs without rooting the phone via its installer progran, Pmbootstrap. I have two Xiaomi A1 devices that have been running for over three years with no problems.
+**PostmarketOS**  installs without rooting the phone via its installer progran, Pmbootstrap. 
 
 The aim of this site is to supplement the excellent [PostmarketOS documentation](https://wiki.postmarketos.org) by focusing on my real-world experience with one model.
 
