@@ -8,9 +8,7 @@ plugins:
 title: Bryan's Place
 
 
-description: > 
-  My blog. 
-  Stuff I want to document in case I have to do it again. Hopefully also useful to others.
+
 
 url: "https://bryansplace.github.io"
 baseurl: "" 
