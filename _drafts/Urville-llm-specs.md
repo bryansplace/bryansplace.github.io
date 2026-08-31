@@ -4,7 +4,7 @@ date: 2026-08-31
 filename: ${filename}$
 layout: post
 published: false
-#tags:
+# tags:
 ---
 
 # urville — Device Summary (Local LLM Sizing)
