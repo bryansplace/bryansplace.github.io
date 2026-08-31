@@ -1,0 +1,32 @@
+--- old
++++ new
+@@ -2,1 +2,1 @@
+-title: ${title}$
++title: $Urville-llm-specs$
+@@ -9,0 +9,26 @@
++
++# urville — Device Summary (Local LLM Sizing)
++
++**Device:** Xiaomi Mi A1 (codename: tissot)
++**OS:** PostmarketOS (Alpine Linux, OpenRC)
++
++## Hardware
++
++| Spec | Value |
++|---|---|
++| CPU cores | 8 (Snapdragon 625, octa-core Cortex-A53) |
++| RAM total | 3.5G |
++| RAM available | 2.7G |
++| Swap | 5.2G zram (41.4M used) |
++| Storage free | 20.5G / 50.3G (57% used) |
++
++## LLM Inference Notes
++
++- **Usable RAM budget:** ~2.7G, which comfortably fits Q4_K_M quantized models up to ~3B params (~1.8–2.2G file size), leaving room for context/KV cache.
++- **7B+ models at Q4** (~4G file) will likely swap heavily or fail to load — zram is compressed RAM, not free extra capacity.
++- **Cortex-A53 cores are efficiency-focused, not fast** — expect ~1–3 tokens/sec on a 3B model.
++- **Recommendation:** stick to 1B–3B GGUF models at Q4 or lower quant. A 0.5B–1.5B model with a short context window will feel noticeably snappier than pushing the RAM ceiling with a 3B model.
++
++---
++*Generated August 31, 2026*
++
