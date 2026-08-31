@@ -1,0 +1,26 @@
+--- old
++++ new
+@@ -6,1 +6,0 @@
+-
+@@ -21,1 +20,3 @@
+-```doas apk add tailscale```
++```bash
++doas apk add tailscale
++```
+@@ -24,2 +25,4 @@
+-```doas rc-update add tailscale```
+-```doas rc-service tailscale start```
++```bash
++doas rc-update add tailscale
++doas rc-service tailscale start
++```
+@@ -28,1 +31,3 @@
+-```tailscale up```
++```bash
++tailscale up
++```
+@@ -31,1 +36,3 @@
+-```tailscale ip -4```
++```bash
++tailscale ip -4
++```
