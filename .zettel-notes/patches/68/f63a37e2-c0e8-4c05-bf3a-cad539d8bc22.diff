@@ -1,0 +1,24 @@
+--- old
++++ new
+@@ -10,1 +10,1 @@
+-**PostmarketOS**  installs without rooting the phone via its installer progran, Pmbootstrap. 
++**Finished Repositories**  
+@@ -12,1 +12,2 @@
+-The aim of this site is to supplement the excellent [PostmarketOS documentation](https://wiki.postmarketos.org) by focusing on my real-world experience with one model.
++- **[Setting up PostmarketOS](/postmarketos/)** — full install walkthrough, start to home assistant
++- **[Reduce battery voltage](https://github.com/bryansplace/PostmarketOS-limit-battery-voltage/blob/main/README.md)**
+@@ -14,14 +15,0 @@
+-- **[Setting up PostmarketOS](/postmarketos/)** — full install walkthrough, start to finish
+-- **[Projects](/projects/)** — things I've built
+-- **[Now](/now/)** — what I'm currently working on
+-
+-Once you have a working server, I go on to cover:
+-
+-- [Reduce battery voltage](https://github.com/bryansplace/PostmarketOS-limit-battery-voltage/blob/main/README.md)
+-- [Docker](/docker.html)
+-- [Firewall](/firewall.html)
+-- [Home Assistant](/hass.html)
+-- [Bluetooth](/bluetooth.html)
+-- Jupyter
+-- Connect to NAS storage
+-- [Tailscale](/tailscale.md)
